@@ -1,0 +1,3 @@
+[submodule "hemes/kross-hugo-portfolio-template"]
+	path = hemes/kross-hugo-portfolio-template
+	url = https://github.com/CSKMedia/affluere.git
