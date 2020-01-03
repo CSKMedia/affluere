@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://www.one.com/admin/external-access-administration.do -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sv" xml:lang="sv" style="" class=" js canvas canvastext rgba csstransforms csstransforms3d csstransitions localstorage sessionstorage svg csscalc cssvhunit cssvmaxunit cssvwunit placeholder cssvminunit bgpositionshorthand"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+<script type="text/javascript" src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/b7ed386b69"></script><script type="text/javascript" async="" src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/nqpz9vww"></script><script src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/nr-1158.min.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"b7ed386b69",applicationID:"132087301"};window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var i=e[t]={exports:{}};n[t][0].call(i.exports,function(e){var i=n[t][1][e];return r(i||e)},i,i.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(n,e,t){function r(){}function i(n,e,t){return function(){return o(n,[u.now()].concat(f(arguments)),e?null:this,t),e?void 0:this}}var o=n("handle"),a=n(4),f=n(5),c=n("ee").get("tracer"),u=n("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(n,e){s[e]=i(d+e,!0,"api")}),s.addPageAction=i(d+"addPageAction",!0),s.setCurrentRouteName=i(d+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(n,e){var t={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),n,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return e.apply(this,arguments)}catch(n){throw c.emit("fn-err",[arguments,this,n],t),n}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(n,e){m[e]=i(l+e)}),newrelic.noticeError=function(n,e){"string"==typeof n&&(n=new Error(n)),o("err",[n,u.now(),!1,e])}},{}],2:[function(n,e,t){function r(n,e){var t=n.getEntries();t.forEach(function(n){"first-paint"===n.name?a("timing",["fp",Math.floor(n.startTime)]):"first-contentful-paint"===n.name&&a("timing",["fcp",Math.floor(n.startTime)])})}function i(n){if(n instanceof c&&!s){var e,t=Math.round(n.timeStamp);e=t>1e12?Date.now()-t:f.now()-t,s=!0,a("timing",["fi",t,{type:n.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var o,a=n("handle"),f=n("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){o=new PerformanceObserver(r);try{o.observe({entryTypes:["paint"]})}catch(u){}}if("addEventListener"in document){var s=!1,p=["click","keydown","mousedown","pointerdown","touchstart"];p.forEach(function(n){document.addEventListener(n,i,!1)})}}},{}],3:[function(n,e,t){function r(n,e){if(!i)return!1;if(n!==i)return!1;if(!e)return!0;if(!o)return!1;for(var t=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],4:[function(n,e,t){function r(n,e){var t=[],r="",o=0;for(r in n)i.call(n,r)&&(t[o]=e(r,n[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],5:[function(n,e,t){function r(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,i=t-e||0,o=Array(i<0?0:i);++r<i;)o[r]=n[e+r];return o}e.exports=r},{}],6:[function(n,e,t){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(n,e,t){function r(){}function i(n){function e(n){return n&&n instanceof r?n:n?c(n,f,o):o()}function t(t,r,i,o){if(!d.aborted||o){n&&n(t,r,i);for(var a=e(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(n,e){h[n]=v(n).concat(e)}function m(n,e){var t=h[n];if(t)for(var r=0;r<t.length;r++)t[r]===e&&t.splice(r,1)}function v(n){return h[n]||[]}function g(n){return p[n]=p[n]||i(t)}function w(n,e){u(n,function(n,t){e=e||"feature",y[t]=e,e in s||(s[e]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:e,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var f="nr@context",c=n("gos"),u=n(4),s={},p={},d=e.exports=i();d.backlog=s},{}],gos:[function(n,e,t){function r(n,e,t){if(i.call(n,e))return n[e];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return n[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(n,e,t){function r(n,e,t,r){i.buffer([n],r),i.emit(n,e,t)}var i=n("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(n,e,t){function r(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:a(n,o,function(){return i++})}var i=1,o="nr@id",a=n("gos");e.exports=r},{}],loader:[function(n,e,t){function r(){if(!x++){var n=E.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(n&&n.licenseKey&&n.applicationID&&e))return s.abort();u(y,function(e,t){n[e]||(n[e]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=l.createElement("script");t.src="https://"+n.agent,e.parentNode.insertBefore(t,e)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=n("handle"),u=n(4),s=n("ee"),p=n(3),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1158.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=e.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};n(1),n(2),l[m]?(l[m]("DOMContentLoaded",o,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",i),d[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=n(6)},{}],"wrap-function":[function(n,e,t){function r(n){return!(n&&n instanceof Function&&n.apply&&!n[a])}var i=n("ee"),o=n(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;e.exports=function(n,e){function t(n,e,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){d([u,"",[r,a,i],f])}s(e+"start",[r,a,i],f);try{return c=n.apply(a,r)}catch(p){throw s(e+"err",[r,a,p],f),p}finally{s(e+"end",[r,a,c],f)}}return r(n)?n:(e||(e=""),nrWrapper[a]=n,p(n,nrWrapper),nrWrapper)}function u(n,e,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<e.length;c++)f=e[c],a=n[f],r(a)||(n[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||e){var o=c;c=!0;try{n.emit(t,r,i,e)}catch(a){d([a,t,r,i])}c=o}}function p(n,e){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(n);return t.forEach(function(t){Object.defineProperty(e,t,{get:function(){return n[t]},set:function(e){return n[t]=e,e}})}),e}catch(r){d([r])}for(var i in n)f.call(n,i)&&(e[i]=n[i]);return e}function d(e){try{n.emit("internal-error",e)}catch(t){}}return n||(n=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script><link rel="preconnect" href="https://www-static.cdn-one.com/" crossorigin="">
+	<link rel="preload" as="font" href="https://www-static.cdn-one.com/fonts/opensans/opensans-italic-400.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="https://www-static.cdn-one.com/fonts/opensans/opensans-italic-700.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="https://www-static.cdn-one.com/fonts/opensans/opensans-regular-400.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="https://www-static.cdn-one.com/fonts/opensans/opensans-regular-600.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="https://www-static.cdn-one.com/fonts/opensans/opensans-regular-700.woff2" type="font/woff2" crossorigin="anonymous">
+	
+	<meta name="page" content="external-access-administration">
+	
+	
+	
+		
+			
+		
+	
+	
+	
+	
+		<meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+        
+		
+			<title>One.com Webbhotell&nbsp;&nbsp;-&nbsp;&nbsp;Domän • Hemsida • E-mail</title>
+		
+	
+	
+	
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	<meta http-equiv="content-language" content="sv">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+			
+			<link absolute="true" media="all" rel="stylesheet" type="text/css" href="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/template-global.css">
+		
+			
+			<link absolute="true" media="all" rel="stylesheet" type="text/css" href="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/jquery-toggles.css">
+		
+	
+	
+		
+			
+			<link absolute="true" media="all" rel="stylesheet" type="text/css" href="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/customeradmin.css" defer="">
+		
+			
+			<link absolute="true" media="all" rel="stylesheet" type="text/css" href="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/customeradmin2019.css" defer="">
+		
+	
+	
+	
+	
+		
+		
+			
+      		<meta name="viewport" content="user-scalable=0, width=device-width, height=device-height, initial-scale=1">
+      		
+				
+				
+				
+				
+				
+				<link rel="stylesheet" href="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/mobile.css" media="only screen and (max-width: 460px)">
+				<link rel="stylesheet" href="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/phablet.css" media="only screen and (min-width: 461px) and (max-width: 711px)">
+				<link rel="stylesheet" href="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/tablet.css" media="only screen and (min-width: 712px) and (max-width: 915px)">
+				<link rel="stylesheet" href="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/widescreen.css" media="only screen and (min-width: 1026px)">
+			
+    	
+		
+		
+			
+		
+	
+	
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://www-static.cdn-one.com/images/global/favicon.ico">
+	<link rel="icon" type="image/png" href="https://www-static.cdn-one.com/images/global/one_16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="https://www-static.cdn-one.com/images/global/one_32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="https://www-static.cdn-one.com/images/global/one_48x48.png" sizes="48x48">
+	<link rel="apple-touch-icon-precomposed" href="https://www-static.cdn-one.com/images/webclips/onecom-60x60.png">
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www-static.cdn-one.com/images/webclips/onecom-76x76.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www-static.cdn-one.com/images/webclips/onecom-120x120.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www-static.cdn-one.com/images/webclips/onecom-152x152.png">
+	<link rel="apple-touch-icon" href="https://www-static.cdn-one.com/images/webclips/onecom-60x60.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://www-static.cdn-one.com/images/webclips/onecom-76x76.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://www-static.cdn-one.com/images/webclips/onecom-120x120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://www-static.cdn-one.com/images/webclips/onecom-152x152.png">
+	
+	<script>
+		// For Universial Analytics tracking
+		
+			var testVersion = 'NOTEST';
+		
+        var onecomConfig = {};
+        	onecomConfig.locale = "sv";
+		
+		
+		
+			onecomConfig.controlPanel = true;
+		
+		
+		
+			onecomConfig.currency = "SEK";
+        
+		onecomConfig.isProduction = false;
+		
+			onecomConfig.isProduction = true;
+		
+		
+			
+				onecomConfig.authorizedDomain = 'affluere.se';
+			
+		
+		window.one = {};
+	</script>
+	
+	
+	
+	
+		
+		<script src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/modernizr-2.8.3-1.js"></script>
+		
+		
+		<script src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/customeradmin.bundle.v1.0.5.js" type="text/javascript"></script>
+		
+		<script src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/global-1.0.11.js"></script>
+		
+		
+			
+				<script type="text/javascript" src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/customeradmin.js"></script>
+			
+				<script type="text/javascript" src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/ToolTip.js"></script>
+			
+				<script type="text/javascript" src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/jquery-toggles.js"></script>
+			
+		
+	
+	
+	
+	<meta name="one.com:active-domain" content="affluere.se">
+	
+		
+	
+	<meta name="one.com:active-user" content="tiffanykarlsson@hotmail.com">
+	<meta name="format-detection" content="telephone=no">
+    
+<style type="text/css" data-jss="">
+.c01 {
+  right: 0;
+  bottom: 0;
+  border: 0;
+  margin: 20px;
+  cursor: pointer;
+  padding: 6px 17px;
+  position: fixed;
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  background-color: #74A345;
+}
+.c01:hover {
+  background-color: #629536 !important;
+}
+.c01 * {
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  line-height: 30px;
+}
+.c02 {
+  margin-right: 8px;
+}
+</style><style type="text/css" data-jss="">
+.c03 {
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  background-color: white;
+}
+.c03 .grecaptcha-badge {
+  display: none;
+}
+@media (max-width: 410px) {
+  .c03 {
+    width: 100%;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+.c04 {
+  height: 40px;
+  position: relative;
+  background-color: #74A345;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+@media (max-width: 410px) {
+  .c04 {
+    border-radius: 0;
+  }
+}
+.c05 {
+  padding: 20px;
+}
+.c06 {
+  top: 7px;
+  left: 50px;
+  right: 50px;
+  color: white;
+  height: 25px;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 25px;
+}
+.c07 {
+  float: right;
+  cursor: pointer;
+}
+.c08 {
+  top: 6px;
+  left: 15px;
+  cursor: pointer;
+  position: absolute;
+  line-height: 25px;
+}
+.c09 {
+  top: 6px;
+  right: 15px;
+  cursor: pointer;
+  position: absolute;
+  line-height: 25px;
+}
+.c010 {
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  border-radius: 0px 0px 5px 5px;
+  background-color: rgba(0,0,0,0.2);
+}
+.c011 {
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  padding: 20px;
+  position: absolute;
+  border-radius: 2px;
+  background-color: white;
+}
+</style><style type="text/css" data-jss="">
+.c012 {
+  width: 100%;
+  position: relative;
+}
+.c013 {
+  width: 100%;
+  color: #1C3B49;
+  border: 1px solid #D3DBDE;
+  font-size: 15px;
+  box-sizing: border-box !important;
+  padding-top: 11px;
+  line-height: 20px;
+  padding-left: 15px;
+  margin-right: -30px;
+  border-radius: 3px;
+  padding-right: 40px;
+  padding-bottom: 11px;
+  -webkit-appearance: none;
+}
+.c013::-ms-clear {
+  display: none;
+}
+.c013::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+.c014 {
+  top: -2px;
+  cursor: pointer;
+  position: relative;
+}
+</style><style type="text/css" data-jss="">
+.c015 {
+  right: 0;
+  width: 370px;
+  margin: 20px;
+  bottom: 0;
+  position: relative;
+  max-width: 370px;
+  max-height: 690px;
+}
+@media (max-width: 410px) {
+  .c015 {
+    width: 100%;
+    margin: 0;
+    min-width: 370px;
+    max-width: 410px;
+    overflow-y: auto;
+  }
+}
+.c016 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+</style><style type="text/css" data-jss="">
+.c018.wrapper {
+  text-align: center;
+  padding-top: 20px;
+}
+.c018.headline {
+  color: #4E4E4E;
+  font-size: 14px;
+}
+.c018.comment {
+  color: #787878;
+  border: 0;
+  padding: 0;
+  font-size: 12px;
+}
+</style><style type="text/css" data-jss="">
+@import url(https://www-static.cdn-one.com/css/chatwidgetfonts.css);
+.c019 {
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+  display: inline-block;
+  position: fixed;
+  font-family: Open Sans, sans-serif;
+}
+@media (max-width: 410px) {
+  .c019 {
+    width: 100%;
+    max-height: 100%;
+  }
+}
+</style><style type="text/css" data-jss="">
+.c020 {
+  color: #74A345;
+  border: 1px solid #B9D1A1;
+  cursor: pointer;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+  border-radius: 4px;
+  background-color: white !important;
+}
+.c020:hover {
+  color: #74A345;
+  border-color: #74A345;
+}
+.c020.disabled {
+  border-color: #DBDBDB;
+  background-color: #DBDBDB !important;
+}
+.c020.loading {
+  min-width: 80px;
+}
+.c020.disabled:hover {
+  cursor: default;
+  border-color: #DBDBDB;
+  background-color: #DBDBDB !important;
+}
+.c021 {
+  color: white !important;
+  border-color: #74A345;
+  background-color: #74A345 !important;
+}
+.c021:hover {
+  color: white;
+  border-color: #629536;
+  background-color: #629536 !important;
+}
+.c022 {
+  color: #4E4E4E;
+  border-color: #DBDBDB;
+  background-color: white !important;
+}
+.c022:hover {
+  color: #4E4E4E;
+  border-color: #787878;
+  background-color: white !important;
+}
+.c023 {
+  margin-left: 6px;
+}
+</style><style type="text/css" data-jss="">
+.c024 {
+  color: #4E4E4E;
+  margin: 20px 0 10px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: normal;
+}
+.c025 {
+  font-size: 12px;
+}
+.c026 {
+  margin-top: 0;
+}
+</style><style type="text/css" data-jss="">
+.c027 {
+  border: 0;
+  height: 1px;
+  margin: 20px 0;
+  background: #DBDBDB;
+}
+</style><style type="text/css" data-jss="">
+.c028 {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.c029 li:before {
+  display: none;
+}
+</style><style type="text/css" data-jss="">
+.c030 {
+  margin: 0 0 13px !important;
+  cursor: pointer;
+  display: list-item !important;
+  padding: 0 !important;
+  line-height: 17px;
+  list-style-type: none;
+  counter-increment: item;
+}
+.c030:before {
+  color: #4E4E4E;
+  display: inline !important;
+  padding: 0;
+  content: counter(item) ". " !important;
+  font-size: 13px;
+  font-weight: 400 !important;
+  line-height: 18px;
+  padding-right: 10px;
+  text-decoration: none !important;
+}
+.c030:last-child {
+  margin-bottom: 0 !important;
+}
+.c030 span {
+  color: #74A345 !important;
+  font-size: 12px !important;
+}
+.c030 span:hover {
+  text-decoration: underline;
+}
+.c031:before {
+  display: none;
+}
+</style><style type="text/css" data-jss="">
+.c032 > div {
+  color: #4E4E4E;
+  font-size: 12px;
+  line-height: 17px;
+}
+.c032 > div h2, .c032 > div h3 {
+  color: #4E4E4E;
+  margin: 20px 0 10px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: normal;
+}
+.c032 > div hr {
+  border: 0;
+  height: 1px;
+  margin: 20px 0;
+  background: #DBDBDB;
+}
+.c032 > div img {
+  max-width: 290px;
+}
+.c032 > div dl {
+  margin: 0;
+}
+.c032 > div dl dd {
+  margin: 0 0 0 18px;
+  display: list-item;
+  padding: 0;
+  background: none;
+  list-style-type: disc;
+}
+.c032 > div dl dd a {
+  color: #74A345;
+  text-decoration: none;
+}
+.c032 > div dl dd a:hover {
+  text-decoration: underline;
+}
+</style><style type="text/css" data-jss="">
+.c033 {
+  overflow-y: auto;
+  margin-right: -18px;
+  padding-right: 20px;
+}
+.c033::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: #D8D8D8;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.c033::-webkit-scrollbar {
+  width: 6px;
+  background-color: #D8D8D8;
+}
+.c033::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+</style><style type="text/css" data-jss="">
+.c034 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.c034 > a {
+  color: #629536;
+  cursor: pointer;
+  font-size: 11px;
+  margin-top: 10px;
+  font-style: italic;
+  line-height: 17px;
+  text-decoration: none;
+}
+.c034 > a:hover {
+  color: #629536;
+  text-decoration: underline;
+}
+</style><style type="text/css" data-jss="">
+.c035 a, .c035 span {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 12px;
+  font-weight: bold;
+  line-height: 17px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  padding-bottom: 11px;
+  text-decoration: none;
+}
+.c035 a.operational, .c035 span.operational {
+  color: #629536;
+  background-color: #F1F6EC;
+}
+.c035 a.under_maintenance, .c035 span.under_maintenance {
+  color: rgba(108, 180, 224, 1);
+  background-color: rgba(108, 180, 224, 0.15);
+}
+.c035 a.degraded_performance, .c035 span.degraded_performance {
+  color: rgba(244, 202, 110, 1);
+  background-color: rgba(244, 202, 110, 0.15);
+}
+.c035 a.partial_outage, .c035 span.partial_outage {
+  color: rgba(226, 145, 93, 1);
+  background-color: rgba(226, 145, 93, 0.15);
+}
+.c035 a.major_outage, .c035 span.major_outage {
+  color: #FC6065;
+  background-color: #FFF2F2;
+}
+.c035 a:hover {
+  text-decoration: underline;
+}
+</style><style type="text/css" data-jss="">
+.c036 {
+  height: 17px;
+  padding: 7px 15px 6px !important;
+  box-sizing: content-box;
+  margin-bottom: 5px !important;
+  border-radius: 4px;
+}
+.c036 > span {
+  font-size: 12px;
+  line-height: 17px;
+}
+.c036 .leftBox {
+  float: left;
+}
+.c036 .rightBox {
+  float: right;
+}
+.c036 .bulletIcon {
+  fill: #4E4E4E;
+  width: 5px;
+  height: 5px;
+  pointer-events: none;
+}
+.c036 .language {
+  color: #4E4E4E;
+}
+.c037 {
+  height: 17px;
+  padding: 7px 15px 6px !important;
+  box-sizing: content-box;
+  margin-bottom: 5px !important;
+  border-radius: 4px;
+  background-color: #E3EDDA;
+}
+.c037 > span {
+  font-size: 12px;
+  line-height: 17px;
+}
+.c037 .leftBox {
+  float: left;
+}
+.c037 .rightBox {
+  float: right;
+}
+.c037 .bulletIcon {
+  fill: #74A345;
+  width: 5px;
+  height: 5px;
+  pointer-events: none;
+}
+.c037 .language {
+  color: #4E4E4E;
+}
+.c037 .text {
+  color: #74A345;
+  font-size: 12px;
+}
+.c038 {
+  height: 17px;
+  padding: 7px 15px 6px !important;
+  box-sizing: content-box;
+  margin-bottom: 5px !important;
+  border-radius: 4px;
+  background-color: #FFF2F2;
+}
+.c038 > span {
+  font-size: 12px;
+  line-height: 17px;
+}
+.c038 .leftBox {
+  float: left;
+}
+.c038 .rightBox {
+  float: right;
+}
+.c038 .bulletIcon {
+  fill: #FC6065;
+  width: 5px;
+  height: 5px;
+  pointer-events: none;
+}
+.c038 .language {
+  color: #4E4E4E;
+}
+.c038 .text {
+  color: #FC6065;
+  font-size: 12px;
+}
+</style><style type="text/css" data-jss="">
+.c039 {
+  position: relative;
+}
+.c040 {
+  width: 100%;
+  color: #4E4E4E;
+  border: 1px solid #DBDBDB;
+  padding: 6px 12px 7px;
+  font-size: 11px;
+  box-sizing: border-box;
+  line-height: 17px;
+  border-radius: 4px;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+.c040.disabled {
+  background-color: #DBDBDB;
+}
+.c040::-ms-expand {
+  display: none;
+}
+.c041 {
+  margin-left: -19px;
+}
+</style><style type="text/css" data-jss="">
+.c042 {
+  cursor: pointer;
+}
+.c042:hover {
+  color: #629536;
+  text-decoration: underline;
+}
+.c043 {
+  cursor: default;
+  opacity: 0.5;
+}
+.c043:hover {
+  text-decoration: none;
+}
+.c044 {
+  color: #74A345;
+  font-size: 12px;
+  line-height: 17px;
+}
+.c045 {
+  margin-right: 9px;
+}
+</style><style type="text/css" data-jss="">
+.c046 {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+</style><style type="text/css" data-jss="">
+.c047 {
+  color: #4E4E4E;
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+.c047 a {
+  color: #4E4E4E;
+}
+.c048 {
+  margin-bottom: 0;
+}
+</style><style type="text/css" data-jss="">
+.c049 {
+  position: relative;
+  margin-bottom: 10px;
+}
+.c049:last-child {
+  margin-bottom: 0;
+}
+.c050 {
+  width: 100%;
+  color: #4E4E4E;
+  margin: 0;
+  border: 1px solid #DBDBDB;
+  padding: 6px 12px 7px;
+  font-size: 12px;
+  box-sizing: border-box;
+  line-height: 17px;
+  border-radius: 4px;
+}
+.c050.error {
+  border: 1px solid #FF7F7F;
+  background-color: white !important;
+}
+.c050.disabled {
+  background-color: #DBDBDB;
+}
+.c051 {
+  color: #FF1515;
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 17px;
+  background-color: white !important;
+}
+</style><style type="text/css" data-jss="">
+.c052 {
+  margin-bottom: 20px;
+}
+.c052.no-margin-bottom {
+  margin-bottom: 0;
+}
+.c053 {
+  width: 100%;
+  color: #4E4E4E;
+  border: 1px solid #DBDBDB;
+  resize: none;
+  display: block;
+  padding: 6px 12px 7px;
+  outline: none;
+  overflow: auto;
+  font-size: 12px;
+  box-sizing: border-box;
+  min-height: 0 !important;
+  font-family: Open Sans, sans-serif;
+  line-height: 17px;
+  border-radius: 4px;
+}
+.c054 {
+  color: #FF1515;
+  margin: 0;
+  border: 1px solid #FF7F7F;
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 17px;
+  background-color: white !important;
+}
+.c055 {
+  color: #FF1515;
+  margin: 0;
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 17px;
+  background-color: white !important;
+}
+.c056 {
+  background-color: #DBDBDB;
+}
+</style><style type="text/css" data-jss="">
+.c057 {
+  float: left;
+  width: 100%;
+  color: #4E4E4E;
+  margin: 15px 0 5px;
+  font-size: 11px;
+  font-style: italic;
+  line-height: 17px;
+}
+.c057 a {
+  color: #4E4E4E;
+}
+.c058 {
+  cursor: pointer;
+}
+.c058:hover {
+  text-decoration: underline;
+}
+.c059 {
+  float: left;
+  width: 100%;
+  color: #FC6065;
+  margin: 15px 0 5px;
+  font-size: 11px;
+  font-style: italic;
+  line-height: 17px;
+}
+.c059 a {
+  color: #4E4E4E;
+}
+</style><style type="text/css" data-jss="">
+.c060 {
+  color: #4E4E4E;
+  font-size: 11px;
+  margin-top: 10px;
+  font-style: italic;
+  text-align: center;
+  line-height: 17px;
+  margin-bottom: 0;
+}
+</style><style type="text/css" data-jss="">
+.c061 {
+  width: 75%;
+  border: 1px solid;
+  padding: 12px 14px;
+  word-wrap: break-word;
+  margin-top: 10px;
+  white-space: pre-line;
+  border-radius: 4px;
+}
+.c061.left {
+  float: left;
+  border-color: #DCE8D0;
+  background-color: #F1F6EC;
+}
+.c061.right {
+  float: right;
+  border-color: #DBDBDB;
+  background-color: white;
+}
+.c062 {
+  color: #4E4E4E;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+.c062.right {
+  cursor: pointer;
+}
+.c063 {
+  color: #4E4E4E;
+  font-size: 12px;
+  line-height: 17px;
+}
+.c063 a {
+  color: #74A345;
+  text-decoration: none;
+}
+.c063 a:hover {
+  text-decoration: underline;
+}
+.c064 {
+  margin: 0;
+}
+.c065 {
+  margin-bottom: 0 !important;
+}
+.c065:before {
+  font-size: 12px;
+  padding-right: 5px;
+}
+</style><style type="text/css" data-jss="">
+.c066 {
+  border: 2px solid transparent;
+  position: relative;
+  margin-top: 10px;
+  box-sizing: border-box;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.c067 {
+  border: 2px dashed rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+.c068 {
+  border: 1px solid transparent;
+}
+.c069 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #4E4E4E;
+  height: 100%;
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 83px;
+  border-radius: 4px;
+  background-color: rgba(0,0,0,0.2);
+}
+</style><style type="text/css" data-jss="">
+.c071 {
+  color: #4E4E4E;
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 10px;
+  line-height: 18px;
+}
+.c071 span {
+  cursor: pointer;
+}
+.c071 span:hover {
+  text-decoration: underline;
+}
+</style><style type="text/css" data-jss="">
+.c072 {
+  text-align: center;
+  border-radius: 2px;
+  background-color: white;
+}
+.c073 {
+  height: 17px;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+</style><style type="text/css" data-jss="">
+.c075 {
+  height: 17px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+.c075:hover {
+  text-decoration: underline;
+}
+.c075.icon {
+  top: -2px;
+  float: right;
+  opacity: 0.5;
+  position: relative;
+}
+.c075.icon.enabled {
+  opacity: 1;
+}
+.c076 {
+  padding-top: 5px;
+}
+</style><style type="text/css" data-jss="">
+.c077 {
+  color: #4E4E4E;
+  font-size: 12px;
+  line-height: 17px;
+}
+</style><style type="text/css" data-jss="">
+.c079 {
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  position: absolute;
+}
+.c079 .leftIcon {
+  float: left;
+  margin-right: 20px;
+}
+.c079 .rightIcon {
+  float: right;
+}
+.c080.heading {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+.c080.sender {
+  height: 17px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+.c080.email {
+  color: #787878;
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+</style><style type="text/css" data-jss="">
+.c081 {
+  text-align: center;
+  border-radius: 2px;
+  background-color: white;
+}
+.c082 {
+  top: -15px;
+  float: right;
+  right: -10px;
+  cursor: pointer;
+  position: relative;
+}
+.c083 {
+  height: 17px;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+</style><style type="text/css" data-jss="">
+.c084 {
+  color: #4E4E4E;
+  font-size: 12px;
+  text-align: right;
+  line-height: 17px;
+}
+.c085 {
+  margin-right: 7px;
+}
+.c086 {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.c086 svg {
+  margin-top: -3px;
+}
+.c086:last-child {
+  margin-right: 0;
+}
+.c087 {
+  position: relative;
+  text-align: left;
+  padding-top: 6px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 5px;
+  padding-bottom: 6px;
+  background-color: rgba(0,0,0,0.1);
+}
+.c088 {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.c088 img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: -4px;
+  border-radius: 5px;
+}
+.c089 {
+  display: inline-block;
+}
+.c089 > div {
+  line-height: 21px;
+}
+.c089 .name {
+  font-weight: bold;
+}
+.c090 {
+  top: 4px;
+  right: 7px;
+  cursor: pointer;
+  position: absolute;
+}
+</style><style type="text/css" data-jss="">
+.c091 {
+  color: #4E4E4E;
+  font-size: 13px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+.c091 textarea {
+  margin-top: 20px;
+}
+.c092 {
+  cursor: pointer;
+  display: inline-block;
+  opacity: 0.5;
+}
+.c092:first-child {
+  margin-right: 20px;
+}
+.c092.selected {
+  opacity: 1;
+}
+.c092.disabled {
+  cursor: auto;
+}
+.c092 svg {
+  width: 56px;
+  height: 56px;
+}
+</style><style type="text/css" data-jss="">
+.c095 {
+  display: none;
+}
+</style><style type="text/css" data-jss="">
+.c096 * {
+  color: #4E4E4E !important;
+  font-size: 12px !important;
+  line-height: 17px;
+}
+.c097 * {
+  font-size: 10px !important;
+  line-height: 15px;
+}
+</style><style type="text/css" data-jss="">
+.c098 {
+  clear: both;
+}
+.c099 {
+  border: 1px solid;
+  padding: 12px 14px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.c099.left {
+  float: left;
+  border-color: #DCE8D0;
+  background-color: #F1F6EC;
+}
+.c099.right {
+  float: right;
+  border-color: #DBDBDB;
+  background-color: white;
+}
+.c099 a {
+  color: #74A345;
+  text-decoration: none;
+}
+.c099 a:hover {
+  text-decoration: underline;
+}
+.c0100 {
+  max-width: 150px;
+}
+.c0101 {
+  font-size: 12px;
+  text-align: center;
+  line-height: 17px;
+}
+</style><style type="text/css" data-jss="">
+.c0102 {
+  margin-bottom: 20px;
+}
+.c0103 ul {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+.c0103 ul li {
+  color: #74A345;
+  cursor: pointer;
+  display: inline;
+  font-size: 12px;
+  line-height: 17px;
+  padding-right: 15px;
+  list-style-type: none;
+}
+.c0103 ul li:hover {
+  text-decoration: underline;
+}
+</style><style type="text/css" data-jss="">
+.c0104 {
+  cursor: pointer;
+}
+.c0104:hover {
+  text-decoration: underline;
+}
+</style></head>
+
+
+
+
+
+
+  
+	<body class="external-access-administration lang-sv country-se version-original  isMac chrome webkit screen-lg">
+
+
+
+<div id="page-overlay"></div>
+
+
+
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="page-container">
+	<div id="outer-sitecontainer" class="customeradmin cpMainContainer">
+		<div id="head-container">
+			<div id="cp-overlay"></div>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    <div class="cpSidebar" id="myAccount">
+        <div class="cpScreenOverlay" onclick="document.getElementById(&#39;myAccount&#39;).classList.toggle(&#39;expanded&#39;);"></div>
+        <div>
+            <div class="close">
+                
+                <span onclick="document.getElementById(&#39;myAccount&#39;).classList.toggle(&#39;expanded&#39;);">
+                   <span></span>
+                   <span></span>
+                </span>
+            </div>
+            
+                
+                    
+                    <div class="cpSidebarSection">
+                      
+                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+                            
+                                
+                                    
+                                    
+                                
+                            
+                            
+
+                      
+                          
+                          
+                          
+                            
+                          
+                          <div class="onecomcp active">
+                            <a href="https://www.one.com/admin/frontpage.do" class="onecomcp active" title="Webbplats, domän &amp; e-post"><span class="HostingUrl">
+                                Webbplats, domän &amp; e-post
+                              </span></a>
+                          </div>
+                      
+                      
+                      
+                          
+                              
+                              
+                              <div class="office365">
+                                <a href="https://www.one.com/admin/office-overview.do" class="office365" title="Office 365"><span class="OfficeUrl">
+                                    Office 365
+                                  </span></a>
+                              </div>
+                          
+                      
+                    </div>
+                    
+                    <div class="cpSidebarSection">
+                      <div>
+                        <span>
+                            
+                                  
+                                      AFFLUERE
+                                  
+                                
+                                
+                            
+                        </span>
+                      </div>
+                      <div>
+                        
+                          <span>
+                            tiffanykarlsson@hotmail.com
+                          </span>
+                        
+                      </div>
+                    </div>
+                    
+                    <div class="cpSidebarSection">
+                      
+                      
+                          <a href="https://www.one.com/admin/multi-subscription.do" class="separator inMenu">Abonnemang</a>
+                      
+                      
+                      <a href="https://www.one.com/admin/password.do" class="separator inMenu">Inloggning och Säkerhet</a>
+                      
+                      <div>
+                          <a href="https://help.one.com/hc/sv" target="_blank" class="someClass">
+                            Guides &amp; FAQ
+                          </a>
+                          <span class="chat" data-bind="click: function() { oneChatWidget &amp;&amp; oneChatWidget.open() }">
+                              Kontakta supporten
+                          </span>
+                      </div>
+                      
+                      
+                          
+                              <a href="https://www.one.com/admin/logout.do" class="separator last inMenu">Logga ut</a>
+                          
+                      
+                    </div>
+                    
+                    <div class="cpSidebarSection cpLanguagePicker">
+                        
+                            
+                        
+                        <ul>
+                            <li><span>Language:</span></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=cs">Čeština</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=da">Dansk</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=de">Deutsch</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=en">English</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=es">Español</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=fr">Français</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=it">Italiano</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=nl">Nederlands</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=no">Norsk</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=pl">Polski</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=pt-BR">Português (Brasil)</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=pt">Português</a></li>
+                            <li><a href="https://www.one.com/admin/frontpage.do?locale=fi">Suomi</a></li>
+                            <li class="active"><a href="https://www.one.com/admin/frontpage.do?locale=sv">Svenska</a></li>
+                        </ul>
+                    </div>
+                
+            
+        </div>
+    </div>
+
+
+
+
+		</div>
+		
+			
+				<div id="contentheader" class="cpTopBar">
+					<div>
+
+						
+
+						
+						
+						
+
+
+						
+
+						
+							
+							
+						
+
+
+						
+						<div>
+							
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+                            
+                                
+                                    
+                                    
+                                
+                            
+                            
+
+							
+								<a href="https://www.one.com/admin/frontpage.do" class="Hosting active" title="Webbplats, domän &amp; e-post"><span>
+										Webbplats, domän &amp; e-post
+									</span></a>
+							
+							
+							
+								
+									<a href="https://www.one.com/admin/office-overview.do" class="Office365" title="Office 365"><span>
+											Office 365
+										</span></a>
+								
+							
+
+							
+							
+								<a href="https://www.one.com/admin/referrals.do" class="ReferralTop" title="Tjäna pengar"><span>
+										Tjäna pengar
+									</span></a>
+							
+						</div>
+						
+						
+							<div class="MyAccount">
+								<div onclick="document.getElementById(&#39;myAccount&#39;).classList.toggle(&#39;expanded&#39;);">
+									<span>
+										Mitt konto
+									</span>
+								</div>
+							</div>
+						
+					</div>
+				</div>
+				
+				
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+				
+			
+		
+		
+		
+		
+		
+		<div id="content-container" class="cpContent cpNoSidebar">
+			
+			<div id="content"> 
+				
+				
+				<!-- ko if: notifications.hasNotifications() --><!-- /ko -->
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+    
+    var config = {
+        sshActive : 'true',  
+        ftpActive : 'false'  
+    };
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cpBreadcrumbContainer">
+    <div>
+        
+        <div>
+          
+          
+              
+                  
+                      
+                          <span id="adminCurrentDomain">
+                            affluere.se
+                          </span>
+                          
+                      
+                  
+              
+          
+
+          
+
+          
+
+          
+        </div>
+        
+        <div>
+          
+              
+                
+                
+                
+                
+                  <a href="https://www.one.com/admin/frontpage.do">Kontrollpanel</a>
+                
+              
+          
+        </div>
+        
+          
+          
+            <div>
+              
+              <span id="currentLocation">
+                SFTP &amp; FTP
+              </span>
+            </div>
+          
+    </div>
+</div>
+
+<div class="extaccessadmin">
+	<a href="https://www.one.com/admin/frontpage.do" id="frontftp" class="frontcontrolpanel" title="Tillbaka till menyn"><span></span></a>
+
+	
+		
+		
+			<h1>SFTP &amp; FTP</h1>
+		
+
+		<form name="externalAccessAdministrationForm" method="post" action="https://www.one.com/admin/external-access-administration.do" id="externalAccessAdministrationForm">
+			
+
+			
+				<input type="hidden" name="updateSSHActive" value="true">
+				<div class="container">
+					
+					
+						<h2>SFTP-administration</h2>
+					
+
+					<blockquote>
+						
+						
+							I din nuvarande prenumeration har du inte tillgång till SSH, men du kan använda SFTP för att göra en krypterad anslutning till ditt webbutrymme och överföra filer säkert. Uppgradera till ett av våra övriga paket om du vill använda SSH.
+						
+					</blockquote>
+	
+					<p class="radio_paragraph">
+						<label class="header" for="sshActiveFalse">Tillåt åtkomst till SFTP</label>
+						<span>
+                        <input type="radio" name="sshActive" value="false" data-bind="checked: externalAccess.sshEnabled">
+						<label for="sshActiveFalse">Av</label>
+						</span>
+						<span>
+						<input type="radio" name="sshActive" value="true" data-bind="checked: externalAccess.sshEnabled">
+						<label for="sshActiveTrue">På</label>
+						</span>
+					</p>
+
+
+
+					<div class="technical-info" data-bind="visible: externalAccess.sshEnabled() == &#39;true&#39;">
+						
+						
+							<p>För att logga in med SFTP ska du använda:</p>
+						
+						
+						<p>
+							<label>Host:</label>
+							<span>ssh.affluere.se</span>
+						</p>
+						<p>
+							<label>Användarnamn (User):</label>
+							<span>affluere.se</span>
+						</p>
+						<p>
+							<label>Port:</label>
+							<span>22</span>
+						</p>
+
+                        <div id="sendSSHMailContainer">
+							
+							
+								<p>Klicka på <strong>Skicka</strong> så får du ett e-postmeddelande som kan användas för att skapa/ändra SFTP-lösenord.</p>
+							
+
+                            <input type="submit" name="sendSSHMail" id="sendSSHMail" class="button arrow-right" value="Skicka">
+                        </div>
+					</div>
+
+				</div>
+			
+
+			
+				<input type="hidden" name="updateFTPActive" value="true">
+				<div class="container" id="ftp-options-container">
+					<h2>FTP-administration</h2>
+					<p>Vi rekommenderar att du använder SFTP och inte FTP för att ansluta till ditt webbutrymme. SFTP är krypterat och därför säkrare att använda.</p>
+					<div class="ftp-options">
+						
+							<p class="radio_paragraph">
+								<label class="header" for="ftpActiveFalse">Tillåt åtkomst till FTP</label>
+								<span>
+								<input type="radio" name="ftpActive" value="false" data-bind="checked: externalAccess.ftpEnabled">
+								<label for="ftpActiveFalse">Av</label>
+								</span>
+								<span>
+								<input type="radio" name="ftpActive" value="true" data-bind="checked: externalAccess.ftpEnabled">
+								<label for="ftpActiveTrue">På</label>
+								</span>
+							</p>
+							<div class="technical-info" data-bind="visible: externalAccess.ftpEnabled() == &#39;true&#39;" style="display: none;">
+								<p>För att logga in med FTP ska du använda:</p>
+								<p>
+									<label>Host:</label>
+									<span>ftp.affluere.se</span>
+								</p>
+								<p>
+									<label>Användarnamn (User):</label>
+									<span>affluere.se</span>
+								</p>
+								<p>
+									<label>Port:</label>
+									<span>21</span>
+								</p>
+
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sendFTPMailContainer">
+	<p>Klicka på <strong>Skicka</strong> så får du ett e-postmeddelande som kan användas för att skapa/ändra FTP-lösenord.</p>
+
+	<input type="submit" name="sendFTPMail" id="sendFTPMail" class="button arrow-right" value="Skicka">
+</div>
+							</div>
+						
+						
+						
+					</div>
+					<div class="ftp-show-options-btn" onclick="document.getElementById(&#39;ftp-options-container&#39;).classList.toggle(&#39;show-options&#39;);">
+						<span>Visa mer</span>
+						<span>Visa mindre</span>
+					</div>
+				</div>
+			
+		</form>
+	
+</div>
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			<div class="clear"></div>
+			</div>
+			
+			<div class="clear"></div>
+		</div> 
+    
+    
+    <div id="footer" class="cpFooter"> 
+      <div>
+        
+        <div class="cpPrivacy">
+          
+          <a href="https://www.one.com/sv/affaersvillkor" target="_blank">Affärsvillkor</a>
+          <a href="https://www.one.com/sv/info/sekretesspolicy" target="_blank">Produkt- &amp; sekretesspolicy</a>
+          <a href="https://www.one.com/sv/info/riktlinjer-foer-cookies" target="_blank">Riktlinjer för cookies</a>
+          <a href="https://www.one.com/sv/info/priser" target="_blank">Priser</a>
+        </div>
+        <div>
+          
+          Copyright © 2002 - 2019 One.com. All rights reserved
+        </div>
+      </div>
+    </div> 
+	</div> 
+	
+	
+	
+	
+		
+			<script type="text/javascript">
+				
+				
+			window.intercomSettings = {
+				"app_id": "nqpz9vww",
+				"name": "Tiffany Karlsson",
+				"email": "tiffanykarlsson@hotmail.com",
+				"user_id": "tiffanykarlsson@hotmail.com",
+				"domains": 1,
+				"domainsActive": 1,
+				"lastPurchased_at": 1572992850,
+				"domainPriv": 0,
+				"domainBizz": 1,
+				"domainPub": 0,
+				"oneLanguage": "sv",
+				"referrals": false,
+				"referral_at": null,
+				"diskUsagePercent": 0,
+				"diskUsageAvail": 50,
+				"activeOffice365Users": 0,
+				"user_hash": "78e58cb7d24034be6ca7a17c144d3f7e6603926e2092a360990db49a5833cb80"
+			};
+			</script>
+			<script>
+				(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/nqpz9vww';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+			</script>
+			<script type="text/javascript" src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/intercom-tracking.js"></script>
+			
+			
+		
+		
+		<script type="application/javascript">
+			jQuery.ajax('/init-session.do', {
+				method: 'POST',
+				data: {
+					legalEntitiesTicket: 'skQdBSAZKqALtXxm',
+					customerEmail: 'tiffanykarlsson@hotmail.com',
+					existingCustomer: true
+				},
+				complete: function(jqXHR, textStatus){}
+			})
+		</script>
+	
+	
+	
+		<div id="chatwidget"><div class="c019"><button class="c01"><span class="c02"><svg viewBox="0 0 27 27" width="27" height="27" opacity="1" style="display: inline-block; vertical-align: middle; height: 27px; width: 27px;"><g transform="translate(-1272.000000, -1051.000000)"><g transform="translate(1252.000000, 1041.000000)" fill="#FFFFFF"><path d="M20.0473657,19.1463276 C20.5458643,13.9714907 24.8677049,10.0180401 30.0448435,10.0015669 L35.9443675,10.0015964 C39.5860435,9.93676106 42.9790599,11.8508777 44.8187886,15.007961 C46.6585174,18.1650443 46.6585174,22.0735443 44.8187886,25.2306276 C42.9790599,28.3877109 39.5860435,30.3018275 35.9476789,30.2370217 L34.8701657,30.2370217 C33.7619046,32.0795385 31.9843522,33.5168328 29.8780525,34.5848528 C29.659325,34.6968422 29.4172876,34.7551829 29.170612,34.7550891 C28.6813909,34.7518459 28.2221395,34.5178402 27.9306035,34.1232585 C27.6390674,33.7286769 27.5491565,33.2194148 27.6880419,32.747531 C27.9520106,31.8630929 28.0495282,30.9374037 27.9760372,30.0178454 C22.9732205,28.948166 19.5533729,24.2743905 20.0473657,19.1463276 Z M33.6758933,29.0479022 C33.8154941,28.7809657 34.0909197,28.6137441 34.3911944,28.6136504 L35.9481136,28.6136841 C39.0079943,28.6719459 41.8605958,27.0657876 43.4075276,24.4136583 C44.9544594,21.7615291 44.9544594,18.4770595 43.4075276,15.8249302 C41.8605958,13.172801 39.0079943,11.5666427 35.9445722,11.6249382 L30.0417367,11.6249382 C25.5957935,11.647253 21.9385063,15.0817855 21.619989,19.5083639 C21.3014717,23.9349424 24.4290563,27.8619241 28.7980719,28.5220134 C29.1516507,28.5738727 29.429352,28.8527771 29.4806386,29.2055874 C29.6848675,30.4978394 29.6105483,31.8184441 29.2612571,33.0851928 C31.2057703,32.0770747 32.7911496,30.7382408 33.6758933,29.0479022 Z"></path></g></g></svg></span><span>Hjälp</span></button></div></div>
+		
+		<script type="text/javascript" src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/chat-widget.js" defer=""></script>
+		<script type="text/javascript">
+			window.oneChatWidgetReady = function (oneChatWidget) {
+				oneChatWidget.init({
+					targetId: 'chatwidget',
+					locale: onecomConfig.locale || 'en',
+					visitorInfo: {
+						name: 'Tiffany Karlsson',
+						email: 'tiffanykarlsson@hotmail.com'
+					}
+				});
+				oneChatWidget.show();
+			};
+		</script>
+	
+	<template id="template-validation-message"></template>
+	<template id="template-validation-error"></template>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"b7ed386b69","agent":"","beacon":"bam.nr-data.net","applicationTime":146,"applicationID":"132087301","transactionName":"Z1RRY0FXCENUU0xRV14eYENBQxJDdFNMUVdeHldcHVQJXlAeSEpXWlRQQ0AYBUVGRFdVXUJQV1paWEhaB1VdFk9VU1JHQxgVREdFTEsWVUlHVlBVA0NGUVxVUV4fUlRHXwleG3VATF1CX1JbclUFVUZDeVxVWV9aREdEB0RcX1Z5W0RYXFk=","queueTime":0}</script>
+
+	
+
+
+
+</div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important;" aria-hidden="true" tabindex="-1" title="Intercom" src="./One.com Webbhotell  -  Domän • Hemsida • E-mail_files/saved_resource.html"></iframe><div id="intercom-css-container"><style data-emotion="intercom-global"></style></div><div id="intercom-container" class="intercom-namespace"><style>html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body,html.intercom-modal-open,#intercom-container-body{overflow:hidden !important;}html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body{position:static !important;}html.intercom-mobile-messenger-active > body{height:0 !important;margin:0 !important;}iframe#intercom-frame{position:absolute !important;opacity:0 !important;width:1px !important;height:1px !important;top:0 !important;left:0 !important;border:none !important;display:block !important;z-index:-1 !important;}</style><div class="intercom-app" aria-live="polite"><div id="intercom-modal-container"></div></div></div></body></html>

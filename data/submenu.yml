@@ -1,0 +1,92 @@
+Spraytan:
+  - title : "Om spraytan"
+    hash : "om-spraytan"
+    content: "Vi på AFFLUERE använder endast produkter av hög kvalité för att uppnå bästa möjliga resultat.
+    Därför använder vi oss av spraytanvätskor från Bronza i färgerna Natural Bronze och Deep Bronze som passar alla hudtyper, är helt veganska och utan orangea undertoner.
+    Dessutom torkar de snabbt och klibbar inte. Precis som vi vill ha det!
+    <br>
+    <br>
+    Behandlingen tar ca 15 minuter och håller i 5-10 dagar innan färgen successivt faller bort.
+    <br>
+    <br>
+    <u><a href='http://affluere.se/besok/spraytan/'>Här</a></u> ser du våra tips inför och efter ditt spraytanbesök för att få ett så bra och hållbart resultat som möjligt."
+    image : "images/spraytan3.jpg"
+    textLeft: true
+  
+  - title : "Hur det går till"
+    hash : "hur-gar-det-till"
+    content: null
+    contentList:
+      - item:	"När du kommer till salongen börjar vi alltid med en konsultation för att få en gemensam bild om vilket resultat du önskar att uppnå." 
+      - item:	Därefter visas du in i ett avskilt rum där du på egen hand i lugn och ro klär av dig (efter egen preferens), sätter på dig hårnät, fotskydd och barriärkräm efter instruktioner. 
+      - item:	När du är redo kommer din spraytan-artist in i rummet och ni är redo att dra igång!
+      - item:	Under hela processen kommer din spraytan-artist instruera dig i hur du ska stå och förflytta dig. 
+      - item:	Sprayningen tar ca 10-15 minuter innan du är brun och härlig.
+      - item:	Därefter får stå kvar på egen hand och torka i någon minut innan du åter igen kan klä på dig. 
+      - item:	Slutligen erbjuds du en removal wipe för dina handflator, finger- och tånaglar för att ta bort eventuell färg på dessa områden. 
+      - item:	Du har en gyllene tan och är good to go!
+    image : "images/spraytan-orginal.jpg"
+    textRight: true
+
+  - title : "Priser"
+    hash : "priser"
+    content :
+    image : "images/spraytan6.jpg"
+    priceList:
+      - type: "En person"
+        price: "375:-"
+      - type: "Två personer"
+        price: "650:-"
+      - type: "Halvkropp"
+        price: "250:-"
+      - type: "Klippkort 10 gånger"
+        price: "2500:-"
+      - type: "Hela kompisgänget"
+        price: "På begäran"
+      - type: "Hembesök"
+        price: "På begäran"   
+   
+Lashlift:
+  - title : "Om lashlift"
+    hash : "#om-lashlift"
+    content: "Lashlift är en behandling som på ett skonsamt sätt lyfter, färgar och ger volym till dina egna ögonfransar.
+    Detta är perfekt för dig som vill uppnå ett naturligt resultat som ger ett piggt intryck och som kortar ner din morgonrutin.
+    <br />
+    <br />
+    Effekten av ett lashlift kvarstår i ungefär 6-8 veckor och är helt underhållsfri till skillnad från andra fransbehandlingar i och med att den endast jobbar med dina egna fransar.
+    <br />
+    <br />
+    <u><a href='http://affluere.se/besok/lashlift/'>Här</a></u>  ser du våra tips inför och efter ett lashlift för att få ett så bra och hållbart resultat som möjligt."
+    image : "images/lashlift4.jpg"
+    textLeft: true
+
+  - title : "Priser"
+    hash: "priser"
+    content : ""
+    image : "images/lashlift3.jpg"
+    textRight: true
+    priceList:
+      - type: "lashlift ink. keratin och fransfärg"
+        price: "895:-"
+
+Frans- och brynfärg:
+  - title : "Om Frans- och brynfärg"
+    hash : "#om-frans-och-brynfarg"
+    content : "Ni vet när man känner sig lite trist och grå och skulle behöva en snabb och enkel uppfräschning som sparar tid i vardagen? Då är frans- och brynfärgning svaret! 
+Behandlingen tar ca 15-30 minuter och håller i ca 6 veckor.
+"
+    image : "images/fransobryn.jpg"
+    textLeft : true 
+
+  - title : "Priser"
+    hash : "#priser"
+    content : ""
+    image : "images/fransobryn2.jpg"
+    priceList:
+      - type: "Fransfärg"
+        price: "250:-"
+      - type: "Brynfärg"
+        price: "250:-"
+      - type: "Frans- och brynfärgning"
+        price: "400:-"
+    textRight : true 

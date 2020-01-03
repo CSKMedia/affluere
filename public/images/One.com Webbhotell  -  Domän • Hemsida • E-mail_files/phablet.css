@@ -1,0 +1,251 @@
+@import url('/css/nondesktop.css');
+@import url('/css/mobilephablet.css');
+
+/* Upper template */
+
+#head {
+	padding:15px;
+}
+
+.customeradmin #head {
+	padding-left:0;
+}
+
+
+
+#menuButton {
+	background:url(//www-static.cdn-one.com/images/mobile/menu-icon.png) no-repeat left center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	padding-left: 30px;
+	line-height: 18px;
+	margin-left: 10px;
+	margin-top: 5px;
+	cursor:pointer;
+	display:inline-block;
+}
+#head #site-actions {
+	padding-bottom:14px;
+}
+#global_login a em, #global_login a strong {
+	display:none;
+}
+.global_search .globalInputContainer,
+.global_search .globalDomainSearchInput,
+.global_search .dropdown,
+.global_search .dropdown .header,
+.global_search .global_search_button,
+.global_search #progress img {
+	height:27px;
+}
+.global_search select {
+	height:24px;
+	font-size:16px;
+}
+.global_search .global_search_button {
+	width:27px;
+}
+.global_search .dropdown .header a {
+	line-height:27px;
+	font-size:16px
+}
+.global_search .globalDomainSearchInput, .global_search .globalInputContainer {
+	font-size:16px;
+}
+.global_search .globalDomainSearchInput {
+	line-height:27px;
+}
+.global_search .globalInputContainer {
+	height:auto;
+}
+#contentheader {
+	padding-left:20px;
+	padding-right:20px;	
+}
+
+.customeradmin #contentheader {
+	padding-left:0;
+	padding-right:0;
+}
+#content {
+	/*padding:20px;*/
+}
+.customeradmin #content {
+	/*padding:0;
+	padding-top:8px;*/
+}
+
+.contentintro {
+	padding:20px;
+}
+#content-container {
+	overflow:visible;
+}
+/* /Upper template */
+
+/* Frontpage */
+.initSectionSeparator {
+	padding: 10px 0 30px;
+}
+.headerBox .headerBoxContent {
+	padding: 20px 15px 20px 20px;
+	overflow: auto;
+}
+.headerBox .leftSection, .headerBox .rightSection {
+	width:45%;
+}
+.headerBox .leftSection {
+	margin-right:20px;
+}
+.expandContainer .expandLeft, .expandContainer .expandRight {
+	width:49%;
+}
+.expandContainer .expandLeft {
+	margin-right:2%;
+}
+#contentheader.frontpage {
+	overflow:auto;
+	padding:20px 10px 20px 20px;
+}
+#contentheader.frontpage .inner-contentheader {
+	padding-top:5px;
+}
+#contentheader.frontpage .leftBox {
+	float:none;
+	width:auto;
+}
+#contentheader.frontpage ul.leftRow, #contentheader.frontpage ul.rightRow  {
+	width:50%;
+	margin-right:0;
+}
+#contentheader.frontpage h2, #contentheader.frontpage h2 * {
+	font-size:30px;
+	font-weight:bold;
+}
+#webhostingFacts li, #webhostingFacts li em {
+	font-size:15px;
+}
+.contentintro#frontpage {
+	padding:20px 20px 0 20px;
+}
+.contentintro#frontpage .frontpageFacts {
+	margin-bottom:10px;
+}
+.contentintro#frontpage .frontpageFacts div {
+	width:39%;
+}
+.contentintro#frontpage .frontpageFacts div.facts {
+	width:auto;
+}
+.contentintro#frontpage .centerSection {
+	border-right:none;
+	margin:15px;
+	padding: 0 0 0 25px;
+}
+.contentintro#frontpage .leftSection {
+	padding-right:0;
+	margin:15px;
+}
+.contentintro#frontpage .initSectionSeparator {
+	padding-bottom:0;
+	padding-top:30px;
+}
+.contentintro#frontpage .priceSpaceContainer {
+	margin-bottom:20px;
+}
+.contentintro#frontpage .pricecontainer {
+	width:47%;
+}
+.rebatebox {
+	/*display:none;*/
+}
+/* /Frontpage */
+
+/* Control panel */
+#content.menu-open {
+	overflow:hidden;
+}
+
+#content.menu-open #controlpanel li {
+	margin-right:0 !important;
+	float:left;
+	width: -webkit-calc(100% - 18px);
+	width: -moz-calc(100% - 18px);
+	width: calc(100% - 18px);
+}
+
+.domain-list--is-active #controlpanel li {
+	width: -webkit-calc( (100% / 2) - 20px);
+	width: -moz-calc( (100% / 2) - 20px );
+	width: calc( (100% / 2) - 20px );
+}
+
+#content.menu-open #controlpanel li em {
+	height:auto;
+}
+#controlpanel em {
+	height:71px;
+	padding:15px;
+}
+.sideMenu > *:first-child {
+	margin-top:1em;
+}
+/* /Control panel */
+
+/* Customer page */
+table.orderprice {
+	margin-bottom:0;	
+}
+/* /Customer page */
+
+/* Cloud Drive page */
+
+#innercontent.clouddrive .software {
+	margin-bottom:6px;
+}
+
+/* /Cloud Drive page */
+
+/* Domain search pages */
+
+#center_search input.border {
+	width:280px;
+}
+
+/* /Domain search pages */
+
+/* Gallery*/
+.gallery .gallery-standalonegallery-template #templates img {
+	height:auto;
+	width:330px;
+}
+.gallery .album-details label {
+	width:auto;
+}
+/* /Gallery*/
+
+/* payment-buy page. */
+#innercontent.paymentBuy .priceOverview {
+	float:none;
+	margin-bottom:20px;
+}
+
+.hidePhablet {
+	display:none !important;
+}
+
+
+.customeradmin .addon .globalInputContainer {
+	margin-bottom:10px;
+}
+
+@media only screen and (max-width: 550px) {
+	#content.menu-open {
+		display:none;
+	}
+
+	.sideMenu.right {
+		width:100%;
+	}
+}

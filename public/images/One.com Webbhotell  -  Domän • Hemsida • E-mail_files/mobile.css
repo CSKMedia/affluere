@@ -1,0 +1,706 @@
+@import url('/css/nondesktop.css?v=1.0.0');
+@import url('/css/mobilephablet.css?v=1.0.0');
+
+/* General style definitions */
+h1, h1 *, h2.main, h2.main * {
+	margin-bottom:10px;
+	font-size:24px;
+}
+table.alternatives .tableColSeparatorBorder, table.prices .tableColSeparatorBorder {
+	padding:0;
+	width:12px;
+}
+
+#adminCurrentDomain {
+	/*position: absolute;*/
+}
+
+.customeradmin table.alternatives {
+	table-layout: fixed;
+}
+.customeradmin table.alternatives thead td.status h2 {
+	display:none;
+}
+.customeradmin table.alternatives td.status {
+	padding:15px 0 !important;
+	width:30px;
+}
+.customeradmin table.alternatives td.domain {
+	word-break: break-all;
+}
+
+.customeradmin table.alternatives td.price {
+	width:30%;
+}
+
+table.prices td {
+	padding:8px;	
+}
+table.prices h2 {
+	margin-bottom: 0px !important;
+	font-size: 13px;
+}
+#forwardback input, div.forwardback input {
+	margin-bottom:7px;
+}
+.headerBox {
+	background-color:transparent;
+	border:none;
+	margin-bottom:10px;
+}
+.headerBox h3 {
+	background-color:transparent;
+	padding:0;
+}
+.headerBox .leftSection {
+	width:auto;
+	border:none;
+	margin:0;
+	padding:0;
+}
+.headerBox ul {
+	float:none;
+}
+#addonRebateCouponLabel {
+	display:block;
+	width:auto;
+}
+
+.headerBox.facts li.last {
+	margin-bottom:16px;
+}
+.headerBox .headerBoxContent {
+	padding:15px 0 0 0;
+	overflow:visible;
+}
+.radio_paragraph > span label {
+	max-width:80%;
+}
+.single_radio_paragraph label {
+	width:85% !important;
+	max-width:280px;
+}
+.single_radio_paragraph input.border {
+	margin-left:0;
+}
+/* /General style definitions */
+
+/* payment-buy page. */
+#innercontent.paymentBuy .priceOverview {
+	float:none;
+	width:auto;
+	margin-bottom:20px;
+}
+
+#innercontent.paymentBuy .priceOverview tr td:last-child {
+	width:40%;
+	vertical-align: top;
+}
+
+/* Upper template */
+.inner-contentheader {
+	margin:0px;
+}
+.inner-contentheader .separator {
+	padding:0 5px;
+}
+
+#head {
+	padding-left:0;
+	padding-right:0;
+}
+
+.customeradmin #mobileMenuButton, .customeradmin #mobileLoginButton {
+	display:none;
+}
+#mobileMenuButton {
+	display:block;
+	width:41px;
+	height:41px;
+	float:right;
+	background-color: #3b5764;
+	-pie-background:url(//www-static.cdn-one.com/images/mobile/menu-icon.png) no-repeat center center, linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	behavior: url(/static/css/CSS3PIE/PIE.htc);
+	-webkit-border-radius:6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	background-image:url(//www-static.cdn-one.com/images/mobile/menu-icon.png) no-repeat center center,
+	-webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#ff9b00),
+		to(#ffc500)
+	);
+	background:url(//www-static.cdn-one.com/images/mobile/menu-icon.png) no-repeat center center, -webkit-linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	background:url(//www-static.cdn-one.com/images/mobile/menu-icon.png) no-repeat center center,-moz-linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	background:url(//www-static.cdn-one.com/images/mobile/menu-icon.png) no-repeat center center, -o-linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	background:url(//www-static.cdn-one.com/images/mobile/menu-icon.png) no-repeat center center, -ms-linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	background:url(//www-static.cdn-one.com/images/mobile/menu-icon.png) no-repeat center center, linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+}
+#mobileLoginButton {
+	display: block;
+	width:41px;
+	height:41px;
+	float:right;
+	background-color: #3b5764;
+	-pie-background:url(//www-static.cdn-one.com/images/mobile/login-icon.png) no-repeat center center, linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	behavior: url(/static/css/CSS3PIE/PIE.htc);
+	-webkit-border-radius:6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	background-image:url(//www-static.cdn-one.com/images/mobile/login-icon.png) no-repeat center center,
+	-webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#ff9b00),
+		to(#ffc500)
+	);
+	background:url(//www-static.cdn-one.com/images/mobile/login-icon.png) no-repeat center center, -webkit-linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	background:url(//www-static.cdn-one.com/images/mobile/login-icon.png) no-repeat center center,-moz-linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	background:url(//www-static.cdn-one.com/images/mobile/login-icon.png) no-repeat center center, -o-linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	background:url(//www-static.cdn-one.com/images/mobile/login-icon.png) no-repeat center center, -ms-linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+	background:url(//www-static.cdn-one.com/images/mobile/login-icon.png) no-repeat center center, linear-gradient(top, #3b5764 0%, #3b5764 50%, #1b3c4b 50%, #1b3c4b 100%);
+}
+#global_login {
+	margin-top:0;
+}
+#global_login, #global_login a span.outer {
+	display:none;
+}
+#global_login a strong {
+	top:0;
+	margin-right:4px;
+	font-weight:bold;
+}
+#global_login a em {
+	position:static;
+	top:0;
+	left:0;
+}
+#mobileLoginButton, #mobileMenuButton {
+	margin: 5px 10px 0 0;
+	cursor:pointer;
+}
+#head #site-actions {
+	background:#1b3c4b;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	padding:4px 4px 5px 4px;
+	margin-bottom:0;
+}
+#head #site-actions select, #head #site-actions .dropdown {
+	display:none;
+}
+#head #template_search {
+	float:none;
+	height: 36px
+}
+#template_search .globalInputContainer {
+	display: block;
+	overflow: hidden;
+	padding-right: 10px;
+	height: auto;
+	float: none;
+	width:auto;
+}
+.global_search #progress {
+	margin-top:8px;
+}
+#template_search input.global_search_button {
+	height:35px;
+	width:35px;
+	margin-left:5px;
+	margin-top:2px;
+}
+.global_search .globalDomainSearchInput, .global_search .globalInputContainer {
+	font-size:16px;
+}
+.global_search .globalDomainSearchInput {
+	width: 100%;
+	padding: 0 8px;
+	height:35px;
+	line-height:35px;
+}
+.customeradmin #contenttop span#email,
+.customeradmin #contenttop span#current-package
+ {
+	float:left;
+	clear:both;
+	margin-left:-24px;
+	margin-top:5px;
+}
+
+.customeradmin #contenttop span#current-package {
+	margin-top:10px;
+}
+
+.customeradmin .frontpage__customer-name {
+	float:left;
+	margin-bottom:5px;
+	margin-right:5px;
+}
+
+.customeradmin #contenttop dd:after {
+	display:table;
+	content: ' ';
+	clear:both;
+}
+#content-container {
+	background-color:white;
+}
+#content {
+	padding:0 15px 30px 15px;
+}
+#content.menu-open  {
+	display:none;
+}
+#content #innercontent {
+	margin-top:0;
+}
+
+.sideMenu {
+	position:relative;
+}
+.sideMenu.active {
+	width:100%;
+	height: 100%;
+	border:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.sideMenu ul li {
+	width:100%;
+}
+.sideMenu.left, .sideMenu.right {
+	padding:0 15px;
+}
+.sideMenu h2 {
+	margin-left:10px;
+}
+.contentintro {
+	padding:10px 10px 0 10px;
+}
+
+.customeradmin #contentheader ul#adminDomainList,
+.customeradmin #contentheader .button-wrapper.adminMenuLinks #cadminMenu.toggle {
+	margin-top:0;
+}
+.customeradmin #contentheader .button-wrapper.adminMenuLinks #cadminMenu.toggle {
+	right:-10px;
+}
+/* /Upper template */
+
+.equalbuttons .button {
+	margin-bottom:1em;
+}
+/* Domain search */
+.domainSearchResultContainer p {
+	font-size:12px;
+}
+.domainSearchResultContainer a {
+	font-size:12px;
+}
+/* /Domain search */
+/* Frontpage */
+
+#contentheader.frontpage {
+	display:none;
+}
+.contentintro#frontpage .pricecontainer {
+	width:48%;
+}
+.contentintro#frontpage h2.main {
+	font-size:25px;
+}
+.contentintro#frontpage .leftSection {
+	border-bottom: 1px dotted #999;
+	float:none;
+	padding-right:0;
+	padding-bottom:20px;
+}
+.contentintro#frontpage .centerSection {
+	border:none;
+	float:none;
+	min-height:0;
+}
+.contentintro#frontpage .frontpageFacts {
+	clear:both;
+}
+.contentintro#frontpage .frontpageFacts div {
+	float:none;
+	width:auto;
+}
+.contentintro#frontpage .initSectionSeparator {
+	padding-bottom:0;
+}
+.initSectionSeparator {
+	padding:10px 0;
+}
+#content .init #templateContainer {
+	display:none;
+}
+#content .init #mobileTemplateContainer {
+	overflow:hidden;
+	margin:15px -15px 30px -15px;
+	display:block;
+	-ms-touch-action: pan-y;
+}
+#content .init #mobileTemplateContainer img {
+	margin-right:12px;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter:Alpha(opacity=50);
+	
+}
+#content .init #mobileTemplateContainer img.active {
+	margin-right:12px;
+	opacity: 1;
+	-moz-opacity: 1;
+	-khtml-opacity:1;
+	filter:Alpha(opacity=100);
+}
+#content .init #mobileTemplateContainer div {
+	width: 10000px;
+	position:relative;
+	transition: left 0.2s;
+	-moz-transition: left 0.2s;
+	-webkit-transition: left 0.2s;
+	-o-transition: left 0.2s;
+}
+#content .init #mobileTemplateContainer div.moving {
+	width: 10000px;
+	position:relative;
+	transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+}
+#content .init #pageChange {
+	display:none;
+}
+#content .init .expandContainer {
+	margin:20px 0;
+}
+#content .init .expandContainer .expandLeft, #content .init .expandContainer .expandRight {
+	width:auto;
+	float:none;
+	margin-right:0;
+}
+.initSection h2.title {
+	font-size:24px;
+}
+.notices {
+	padding-bottom:20px;
+}
+.notices * {
+	font-size:12px;
+}
+.pricecontainer .extraInfo span {
+	display:none;
+}
+.prices .linethrough_container {
+	display:none;
+}
+.alternatives .linethrough_container {
+	display:none;
+}
+
+
+.rebatebox {
+	float:right;
+	margin-right:0;
+}
+
+/* /Frontpage */
+
+/* Customer page */
+
+#buycustomer .errorContainer {
+	width:auto;
+}
+#buycustomer input.border {
+	width:85%;
+}
+#buycustomer select {
+	width:90%;
+}
+#customerZip, #registrantZip {
+	width:21% !important;
+}
+#customerPhoneCode, #registrantPhoneCode, #customerMobileCode, #registrantMobileCode {
+	width:28% !important;
+}
+#customerCity, #registrantCity, #customerPhone, #registrantPhone, #customerMobile, #registrantMobile {
+	width:50% !important;
+}
+/* Customer page */
+
+/* Control panel */
+#controlpanel {
+	overflow:hidden;
+}
+#controlpanel li {
+	width:44%;
+	margin: 11px 0;
+}
+#controlpanel li:nth-child(2n) {
+	margin-right:0 !important;
+}
+#controlpanel li span {
+	height:117px;
+}
+#controlpanel li div.header span,
+.cp-service li div.header span {
+	height:87px;
+}
+#controlpanel li div.header strong,
+.cp-service li div.header strong {
+	font-size:12px;
+    padding-top: 8px;
+}
+.lang-pl #controlpanel li div.header strong,
+.lang-pl .cp-service li div.header strong {
+	font-size:11px;
+    padding-top: 9px;
+}
+.lang-fi #controlpanel li div.header strong,
+.lang-fi .cp-service li div.header strong {
+	font-size:10px;
+    padding-top: 10px;
+}
+#controlpanel li em p {
+	display:none;
+}
+#controlpanel em {
+	padding:15px 15px 15px 15px;
+	height: 29px;
+}
+#controlpanel a strong {
+	padding-bottom:0;
+}
+
+.maillayout .address label,
+.maillayout .enabled label {
+	width:50%;
+	max-width:190px;
+}
+/* /Control panel */
+
+/* Domain search pages - Front page and choose domain */
+#center_search select, #center_search .dropdown {
+	display:none;
+}
+#center_search input.border {
+	border-right:none;
+}
+#innercontent.choose_domain #center_search {
+	margin-right:0;
+	width:100%;
+}
+#innercontent.choose_domain #center_search input.border {
+	width:90%;
+}
+#innercontent.taken #center_search {
+	width:95%;
+}
+#innercontent.taken #center_search input {
+	width:90%;
+}
+/* /Domain search pages */
+.pricecontainer .VWlFM span.priceWholePart {
+	font-size:70px;
+}
+.pricecontainer .WlFVM span.priceWholePart {
+	font-size:70px;
+}
+.pricecontainer .WlVM span.priceWholePart {
+	font-size:70px;
+}
+.pricecontainer .WmVM span.priceWholePart {
+	font-size:53px;
+}
+.pricecontainer .WmVM span.currency {
+	font-size:25px;
+}
+
+/* General control panel*/
+
+/* /General control panel */
+#content.menu-open.left p > * {
+	display:block;
+}
+#content #contenttop p:last-of-type {
+	display: none;
+}
+
+#contenttop .addon-search {
+	margin-top:1.5em;
+}
+#contenttop .addon-search #domainSuffix, #contenttop .addon-search .dropdown  {
+	display:none;
+}
+#contenttop .addon-search .globalDomainSearchInput {
+	
+	/*width:100%;*/
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+#contenttop .addon-search .globalInputContainer {
+	width:100%;
+	position:relative;
+}
+
+/* /Admin frontpage */
+
+/* /Domain search pages */
+
+/* Gallery create */
+.gallery .gallery-standalonegallery-template #templates img {
+	height:auto;
+	width:100%;
+}
+#gallery-standalone-created .browser {
+	width:auto;
+	background:none;
+	height:auto;
+}
+#gallery-standalone-created .title {
+	display:none;
+}
+#gallery-standalone-created .location {
+	position:static;
+	top:0;
+	left:0;
+}
+/* /Gallery create */
+
+/* Blog */
+.blog #add_category input.border {
+	margin:0;
+	display:block;
+}
+/* /Blog */
+/* Mail overview */
+.aliases table .forwards {
+	display:none;
+}
+/* /Mail overview */
+
+/* Subscription */
+.paymenttypeform .recurringInfo {
+	padding: 10px 20px 20px 10px;
+}
+.paymenttypeform .recurringInfo p {
+	margin:0;
+}
+/* /Subscription */
+.hideMobile {
+	display:none !important;
+}
+
+#login-template-dialog label {
+	min-width:0 !important;
+	width:80px !important;
+}
+
+#advancedtop label {
+	top:0;
+	margin-bottom:1em;
+	margin-top:0;
+}
+
+.dhtml-popup.loaded {
+	max-width:100% !important;
+	margin-left:0 !important;
+	left:0 !important;
+}
+
+
+.customeradmin .addon #info-box {
+	display:block;
+	margin-bottom:15px;
+}
+
+.customeradmin .addon .addon-search .globalInputContainer {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:100%;
+	height:55px;
+}
+
+.customeradmin .addon .addon-search [name="globalDomainSearch"],
+.customeradmin .addon .addOnDomainsWrapper .button  {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:100%;
+	margin-top:10px;
+}
+
+.customeradmin .addon .addOnDomainsWrapper {
+	margin-top:20px;
+	width:auto;
+	float:none;
+}
+
+.customeradmin .addon #info-box {
+	float:none;
+	width:auto;
+}
+
+.customeradmin .addon .tableColSeparatorBorder {
+	display:none;
+}
+
+.customeradmin .addon thead td {
+	vertical-align:top;
+}
+
+.gecko .customeradmin .addon .addon-search .globalInputContainer {
+	width: 100%;
+	height:55px;
+}
+
+.inner-contentheader, 
+#content-container {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.dns input, .dns select {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.dns .dns-view-switch {
+	margin-top:65px;
+}
+.dns .icon--update, .dns .icon--complete {
+	position:relative;
+	z-index:1;
+	margin-top: -1px;
+}
+
+.dns #section-redirect [name="subDomain"] {
+	width:85%; 
+}

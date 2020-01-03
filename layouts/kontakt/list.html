@@ -1,0 +1,51 @@
+{{ define "main" }}
+  <!-- page title -->
+  <section class="bg-primary page-title position-relative overflow-hidden">
+  <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h1 class="heading text-center">{{ .Title }}</h1>
+        </div>
+      </div>
+    </div>
+    <img src="{{ .Params.BackgroundImage | relURL}}" alt="besök" class="bg-shape-1 w-100">
+  </section>
+  <!-- /page title -->
+
+  <!--Sub menu-->
+<div class="sub-border sub-nav"></div>
+<!--/Sub menu-->
+
+  <!-- about -->
+  <section class="section p-0">
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col-md-6 p-0 ">
+          <img src="{{ .Params.FeaturedImage | relURL}}" class="container_img">
+        </div>
+        <div class="col-md-6 p-4">
+          {{ range .Site.Data.contact.info }}
+          <h4 class="mb-4 pt-4 text-uppercase">{{ .title }}</h4>
+          <div class="container-contact py-4 mb-4">
+            <ul>
+            <li> Adress: {{ .address| markdownify }}</li>
+            <li> Email: <a href="mailto:info@affluere.se" class="text-dark">{{ .email }}</a></li>
+            <li> Telefon: {{ .phone }} </li>
+            </ul>
+          </div>
+          <p>{{ .content | markdownify }}</p>
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
+
+  <div id="map-widget-I6afe2ca6a99b4a6391f1efb754eb7734" class="map-widget">
+      <iframe class="disabled" width="100%" height="280px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=59.46862549380732,18.122641270914755&amp;key=AIzaSyARNP6PBrYdKNmsYf09tU8jRnffQb-sFQg&amp;language=sv" allowfullscreen="">
+      </iframe>
+    </div>
+
+
+{{ end }}

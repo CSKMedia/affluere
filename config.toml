@@ -1,0 +1,115 @@
+baseURL = "http://affluere.se/"
+languageCode = "en-us"
+title = "Affluere"
+theme = "kross-hugo-portfolio-template"
+summaryLength = "10"
+inst_access = "DzonJZsJK1JTYfDupmrb"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/shuffle/shuffle.min.js"
+
+
+# navigation
+[menu]
+
+ [[menu.main]]
+  name = "Behandlingar"
+  URL = "behandlingar"
+  weight = 2
+
+  [[menu.main]]
+  name = "Priser"
+  URL = "priser"
+  weight = 3
+
+
+  [[menu.main]]
+  name = "Spraytan"
+  URL = "behandlingar/spraytan"
+  parent = "Behandlingar"
+  weight = 1
+  
+
+  [[menu.main]]
+  name = "Lashlift"
+  URL = "behandlingar/lashlift"
+  parent = "Behandlingar"
+  weight = 2
+  
+
+  [[menu.main]]
+  name = "Frans- och brynfärg"
+  URL = "behandlingar/frans-och-brynfarg"
+  parent = "Behandlingar"
+  weight = 3
+  
+  
+  [[menu.main]]
+  name = "Inför ditt besök"
+  URL = "besok"
+  weight = 4
+
+  [[menu.main]]
+  name = "inför spraytan"
+  parent = "Inför ditt besök"
+  URL = "besok/spraytan"
+  weight = 4
+
+  [[menu.main]]
+  name = "inför lashlift"
+  parent = "Inför ditt besök"
+  URL = "besok/lashlift"
+  weight = 5
+
+  [[menu.main]]
+  name = "Kontakt"
+  URL = "kontakt"
+  weight = 5
+
+  [[menu.main]]
+  name = "Boka tid"
+  URL = "http://affluere.bokadirekt.se"
+  weight = 6
+  identifier = "boka"
+
+
+[params]
+logo = "images/affluere_original.png"
+# home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+
+  [params.contact]
+  enable = true
+  formAction = "#" #contact form works with formspree.io
+
+  [params.footer]
+  email = "info@affluere.se"
+  phone = "073 59 59 599"
+  address = "Hägerneholmsvägen 13, 187 61 Täby"
+  link = "http://affluere.bokadirekt.se"

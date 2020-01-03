@@ -1,0 +1,36 @@
+categories:
+  - title: "Spraytan"
+    hash: "spraytan"
+    priceList:
+      - type: "En person"
+        price: "375:-"
+        link: "https://www.bokadirekt.se/places/affluere-32560/-spraytan-helkropp-ord-pris-375--560559?sr=58358"
+      - type: "Två personer"
+        price: "650:-"
+        link: "https://www.bokadirekt.se/places/affluere-32560/spraytan-helkropp-2-personer-569683?sr=58358"
+      - type: "Halvkropp"
+        price: "250:-"
+        link: "https://www.bokadirekt.se/places/affluere-32560/spraytan-halvkropp-ordpris-250--560564?sr=58358"
+      - type: "Klippkort 10 gånger"
+        price: "2500:-"
+      - type: "Hela kompisgänget"
+        price: "På begäran"
+      - type: "Hembesök"
+        price: "På begäran"
+  
+  - title: "Lashlift"
+    hash: "lashlift"
+    priceList: 
+      - type: "lashlift ink. keratin och fransfärg"
+        price: "895:-"
+        link: "https://www.bokadirekt.se/places/affluere-32560/lashlift-ord-pris-895--560565?sr=58358"
+
+  - title: "Frans- och Brynfärg"
+    hash: "frans-och-brynfarg"
+    priceList:
+      - type: "Fransfärg"
+        price: "250:-"
+      - type: "Brynfärg"
+        price: "250:-"
+      - type: "Frans- och brynfärgning"
+        price: "400:-"

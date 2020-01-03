@@ -1,0 +1,197 @@
+{{ define "main" }}
+
+<!-- hero area -->
+<section class="hero-area bg-primary overflow-hidden" id="parallax">
+  <div class="overlay">
+  </div>
+
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="banner_video.mp4" type="video/mp4">
+  </video>
+
+  <div class="container h-100">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <h1 class="heading">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="layer-bg w-100">
+      <img class="img-fluid w-100" src="{{`images/bg-front.jpg` | relURL}}" alt="bg-shape">
+    </div> -->
+</section>
+
+
+{{ if .Site.Data.homepage.news.enable }}
+<!-- blog -->
+<section class="section pt-0">
+  <div class="container-fluid section bg-lightGold">
+    <div class="col-12 text-center">
+      <h2 class="section-title">Nyheter</h2>
+    </div>
+  </div>
+
+  <div class="container section pb-0">
+    <div class="row">
+
+      {{$news_pages := where .Site.RegularPages "Section" "==" "nyheter"}}
+      {{ range first 3  $news_pages}}
+      {{ if lt ($news_pages) 2 }}
+      <!-- Single post -->
+      <div class="col-lg-12 col-sm-12">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6">
+            <img class="img-single-blog" src="{{.Params.Image | absURL}}" alt="post-thumb">
+          </div>
+          <div class="col-lg-6 col-sm-6">
+            <h4><a class="text-uppercase" href="{{.Permalink}}">{{.Title }}</a>
+            </h4>
+            <p class="cars-text">{{.Summary}}</p>
+            <a href="{{.Permalink}}" class="btn btn-xs btn-primary">Läs mer</a>
+          </div>
+        </div>
+      </div>
+      <!-- Two posts -->
+      {{ else if lt ($news_pages) 3 }}
+      <div class="col-lg-6 col-sm-6">
+          <article class="card">
+            <img class="img-single-blog" src="{{.Params.Image | absURL}}" alt="post-thumb">
+            <div class="card-body">
+              <h4 class="card-title"><a class="text-dark text-uppercase" href="{{.Permalink}}">{{.Title }}</a>
+              </h4>
+              <p class="cars-text">{{.Summary}}</p>
+              <a href="{{.Permalink}}" class="btn btn-xs btn-primary">Läs mer</a>
+            </div>
+          </article>
+        </div>
+      <!-- three or more -->
+      {{ else }}
+      <div class="col-lg-4 col-sm-6">
+        <article class="card shadow">
+          <img class="card-img-top" src="{{.Params.Image | absURL}}" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark text-uppercase" href="{{.Permalink}}">{{.Title }}</a>
+            </h4>
+            <p class="cars-text">{{.Summary}}</p>
+            <a href="{{.Permalink}}" class="btn btn-xs btn-primary">Läs mer</a>
+          </div>
+        </article>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /blog -->
+{{ end }}
+
+{{ if .Site.Data.homepage.service.enable }}
+<!-- services -->
+<section class="section py-0">
+  <div class="container-fluid section bg-lightGold">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Behandlingar</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {{ range .Site.Data.homepage.service.item }}
+    <div class="col-md-4 text-center position-relative px-1 py-2">
+      <a class="mb-4 centered effect-shine" href="{{ .url }}">{{.title}}</a>
+      <div class="overlay">
+        <img src="{{ .image }}" class="container_img">
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+<!-- /services -->
+{{ end }}
+
+<section class="section">
+  <div class="row">
+    <div class="col-12 text-center">
+      <a href="/priser/" class="btn-boka px-4 py-3"> Se prislistan</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+{{ if .Site.Data.homepage.service.enable }}
+<!-- services -->
+<!-- <section class="section pt-0">
+    <div class="container-fluid section bg-lightGold">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Behandlingar</h2>
+      </div>
+    </div>
+    <div class="container p-0">
+      <div class="row">
+        {{ range .Site.Data.homepage.service.item }}
+        <div class="col-md-4 mb-4">
+          <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
+            <div class="card-body text-center px-4 py-5">
+              <i class="{{.icon }} icon mb-5 d-inline-block"></i>
+              <h4 class="mb-4">{{.title}}</h4>
+              <p>{{.content | markdownify}}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section> -->
+<!-- /services -->
+{{ end }}
+
+{{ if .Site.Data.homepage.test.enable }}
+<!-- test -->
+<section class="section py-0 active-bg-primary">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      {{ range .Site.Data.homepage.test.item }}
+      <div class="col-md-6 {{if .highlighted }} active-bg-primary {{end}}">
+        <div class="px-4 py-5">
+          <h4 class="mb-4 text-center text-uppercase">{{.title}}</h4>
+          <p>{{.content | markdownify}}</p>
+        </div>
+      </div>
+      <div class="col-md-6 p-0">
+        <img src="{{.image | absURL }}" alt="test" class="container_img">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /test -->
+{{ end }}
+
+
+
+
+<!-- Nöjd kund garanti -->
+<section class="section p-0 active-bg-primary">
+  <div class="container-fluid p-0">
+    <div class="row align-items-center">
+      {{ range .Site.Data.homepage.customerGuarantee.item }}
+      <div class="col-md-6 order-sm-1 {{if .highlighted }} active-bg-primary {{end}}">
+        <div class="px-4 py-5">
+          <h4 class="mb-4 text-center text-uppercase">{{.title}}</h4>
+          <p>{{.content | markdownify}}</p>
+        </div>
+      </div>
+      <div class="col-md-6 p-0">
+        <img src="{{.image | absURL }}" alt="test" class="img-fluid w-100 d-block">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /Nöjd kund garanti-->
+
+{{ end }}

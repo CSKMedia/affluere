@@ -1,0 +1,186 @@
+@import url('/css/nondesktop.css');
+
+/* General style definitions */
+/* /General style definitions */
+
+/* Upper template */
+
+#head {
+	padding:15px;
+}
+.customeradmin #head {
+	padding:0px;
+}
+#menuButton {
+	background:url(//www-static.cdn-one.com/images/mobile/menu-icon.png) no-repeat left center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	padding-left: 30px;
+	line-height: 18px;
+	margin-left: 10px;
+	margin-top: 5px;
+	cursor:pointer;
+	display:block;
+}
+#menuButton {
+	margin-top:3px;
+}
+#global_login a strong {
+	margin-right:20px;
+}
+.contentintro {
+	padding:20px;
+}
+#content {
+	border-right:none;
+	padding-right:0;
+}
+#content-container {
+	border-right:none;
+	overflow:visible;
+}
+.contentheader-triangle {
+	left:-200px;
+}
+#head #site-actions {
+	padding-bottom:12px;
+}
+
+#contenttop a.referral {
+	right:27px;
+}
+.customeradmin #head {
+	padding-top: 0px;
+}
+/* /Upper template */
+
+/* Lower template */
+#lang ul {
+	position:relative;
+	z-index:4;
+}
+#lang a {
+	padding:0px 3px 0 4px;
+}
+#lang li.flag {
+	margin:0;
+}
+/* /Lower template */
+
+/* Frontpage */
+
+#contentheader.frontpage .rightBox {
+	float:right;
+}
+#contentheader.frontpage .leftBox {
+	width:510px;
+}
+.contentintro#frontpage {
+	padding-bottom:0;
+}
+.contentintro#frontpage .initSectionSeparator {
+	padding-bottom:20px;
+}
+.contentintro#frontpage .rightSection {
+	display:none;
+}
+#contentheader.frontpage .inner-contentheader {
+	overflow:auto;
+	padding-bottom:0;
+}
+#webhostingFacts li, #webhostingFacts li em {
+	font-size:15px;
+}
+#contentheader.frontpage ul.leftRow {
+	width:200px;
+}
+#contentheader.frontpage ul.rightRow {
+	width:260px;
+}
+.contentintro#frontpage .space-selection {
+	float:none;
+	margin-left:254px;
+}
+.contentintro#frontpage .centerSection {
+	border-right:none;
+}
+
+/* /Frontpage */
+
+/* Customer page */
+.contentintro #orderprice-container {
+	width:auto;
+	border:none;
+}
+.contentintro #orderprice-container table.orderprice {
+	width:400px;
+}
+.contentintro #orderprice-container table.orderprice td {
+	white-space:normal;
+}
+
+/* Customer page */
+
+/* Admin frontpage */
+#controlpanel li {
+	margin-right:30px;
+}
+
+.engagement div.engagementElement {
+	width:201px;
+}
+#content.menu-open .engagement div.engagementElement { 
+	width:100%;	
+}
+/* /Admin frontpage */
+
+/* payment-buy page. */
+#innercontent.paymentBuy .priceOverview {
+	float:none;
+	margin-bottom:20px;
+	width: auto;
+}
+
+/* init Gallery create */
+
+.gallery .initGalleryText div {
+	width: 330px;
+}
+.gallery .initGalleryText #galleryEngagement {
+	margin-left:362px;
+	padding-bottom:20px;
+}
+/* /init Gallery create */
+
+.hideTablet {
+	display:none !important;
+}
+
+#content.menu-open #controlpanel li {
+	margin-right:19px;
+	float:left;
+	width: -webkit-calc(50% - 18px);
+	width: -moz-calc(50% - 18px);
+	width: calc(50% - 18px);
+}
+
+#content.menu-open #controlpanel li:nth-child(3) {
+	margin-top: 21px;
+}
+#content.menu-open #controlpanel li:nth-child(-n+2) {
+	margin-top:0;
+}
+
+
+#content.menu-open #controlpanel li:nth-last-child(2) {
+	margin-bottom:0;
+}
+
+#content.menu-open #controlpanel li:nth-child(2n) {
+	margin-right: 0;
+}
+
+.customeradmin .addon .globalInputContainer {
+	margin-bottom:10px;
+}

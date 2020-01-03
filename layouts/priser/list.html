@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+  <!--Sub menu-->
+<div class="sub-nav">
+    <ul class="nav nav-justified">
+      {{ range .Site.Data.priceList.categories }} 
+      <li class="nav-item">
+        <a class="nav-link active" href="#{{ .hash }}">{{ .title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  <!--/Sub menu-->
+
+  {{ range .Site.Data.priceList.categories}} 
+  <div class="container-fluid" id="{{ .hash }}">
+    <div class="row justify-content-md-center active-bg-primary">
+      <div class="col-md-6 p-0 active-bg-primary py-5{{ if .textRight }} order-12 {{ end }}">
+      <h4 class="mb-4 text-center text-uppercase">{{ .title }}</h4>
+      {{if .priceList}}
+      <table class="table table-striped font-si">
+          <tbody>
+            {{range .priceList}}
+            <tr>
+              <td>{{ .type }}</td>
+              <td>{{ .price }}</td>
+              {{ if .link}}
+              <td><a href="{{ .link }}" class="link-boka text-shadow" target="_blank">Boka</a></td>
+              {{ else }}
+              <td> </td>
+              {{ end }}
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      {{end}}
+      </div>
+    </div>
+  </div>
+  {{ end }}
+
+
+
+{{ end }}

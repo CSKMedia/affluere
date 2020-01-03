@@ -1,0 +1,51 @@
+{{ define "main" }}
+  <!-- page title -->
+  <section class="bg-primary page-title position-relative overflow-hidden">
+  <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+            <h1 class="heading text-center">{{ .Title }}</h1>
+        </div>
+      </div>
+    </div>
+    <img src="{{ .Params.BackgroundImage | relURL}}" alt="{{ .Title }}" class="bg-shape-1 w-100">
+  </section>
+  <!-- /page title -->
+  <!-- about -->
+  <!-- <section class="section pt-5">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- /about -->
+
+  {{ if .Site.Data.homepage.service.enable }}
+<!-- services -->
+<section class="section py-0">
+  <div class="container-fluid section bg-lightGold">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Behandlingar</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {{ range .Site.Data.homepage.service.item }}
+    <div class="col-md-4 text-center position-relative px-1 py-2">
+      <a class="mb-4 centered effect-shine" href="{{ .url | relURL }}">{{.title}}</a>
+      <div class="overlay">
+        <img src="{{ .image | relURL}}" class="container_img">
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+<!-- /services -->
+{{ end }}
+  
+{{ end }}

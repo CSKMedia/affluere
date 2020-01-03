@@ -1,0 +1,63 @@
+{{ define "main" }}
+  <!-- page title -->
+  <section class="bg-primary page-title position-relative overflow-hidden">
+  <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 px-0 mx-auto">
+          <h1 class="heading text-center">{{ .Title }}</h1>
+        </div>
+      </div>
+    </div>
+    <img src="{{ .Params.BackgroundImage | relURL}}" alt="besök" class="bg-shape-1 w-100">
+  </section>
+  <!-- /page title -->
+
+<!--Sub menu-->
+<div class="sub-nav">
+  <ul class="nav nav-justified">
+    {{ range (index $.Site.Data.submenu .Title) }} 
+    <li class="nav-item">
+      <a class="nav-link active" href="#{{ .hash }}">{{ .title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+<!--/Sub menu-->
+
+{{ range (index $.Site.Data.submenu .Title) }} 
+  <section class="section py-0 active-bg-primary" id="{{ .hash }}">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-6 px-4 py-0 {{ if .textRight }} order-md-12 {{ end }} ">
+          <h4 class="mb-4 pt-4 text-center text-uppercase">{{ .title }}</h4>
+          <p> {{.content | markdownify}} </p>
+          {{if .contentList }}
+            <ol>
+            {{ range .contentList }}
+              <li class="py-1"><p>{{ .item }}</p></li>
+            {{ end }}
+            </ol>
+          {{ end }}
+
+        {{if .priceList}}
+        <table class="table table-striped font-si py-4 mb-4">
+            <tbody>
+              {{range .priceList}}
+              <tr>
+                <td>{{ .type }}</td>
+                <td>{{ .price }}</td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        {{end}}
+        </div>
+        <div class="col-md-6 p-0 {{ if .textLeft }} order-md-12 {{ end }}">
+          <img src="{{ .image | relURL}}" class="container_img">
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

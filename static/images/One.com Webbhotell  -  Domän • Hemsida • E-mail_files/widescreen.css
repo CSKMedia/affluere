@@ -1,0 +1,86 @@
+.sticky-labels-container {
+	position: relative;
+	display: block;
+}
+#head-container {
+	height:138px;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+#outer-sitecontainer {
+	padding-top:137px;
+}
+#global_chat {
+	position:relative;
+	display:block;
+}
+#global_chat a {
+	display:block;
+	position:fixed;
+	top:180px;
+	z-index:3;
+	right:20px;
+	border-radius: 6px 6px 0 0;
+	padding:14px 17px 20px 17px;
+	text-decoration:none;
+	text-align:center;
+	background:#8cb52d;
+	width:auto;
+	height:auto;
+	bottom:auto;
+	-webkit-transform: rotate(-90deg);
+	-webkit-transform-origin: center right;
+	-moz-transform: rotate(-90deg);
+	-moz-transform-origin: center right;
+	-ms-transform: rotate(-90deg);
+	-ms-transform-origin: center right;
+	-o-transform: rotate(-90deg);
+	-o-transform-origin: center right;
+	background-image:-webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0,#a1c253),
+		color-stop(25px,#8cb52d))
+	);
+	background-image:-webkit-linear-gradient(right, #a1c253 0, #8cb52d 25px);
+	background-image:-moz-linear-gradient(right, #a1c253 0, #8cb52d 25px);
+	background-image:-o-linear-gradient(right, #a1c253 0, #8cb52d 25px);
+	background-image:-ms-linear-gradient(right, #a1c253 0, #8cb52d 25px);
+	background-image:linear-gradient(right, #a1c253 0, #8cb52d 25px);
+	-pie-background:linear-gradient(bottom, #a1c253 0, #8cb52d 15px);
+	behavior: url(/static/css/CSS3PIE/PIE.htc);
+}
+
+#global_chat strong, #global_chat span {
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+#global_chat strong {
+	font-size:18px;
+	text-transform:uppercase;
+}
+#global_chat span {
+	font-size:11px;
+}
+#global_chat.lower1 a {
+	top:425px;
+}
+
+.customeradmin #global_chat {
+	display:none;
+}
+
+@media only screen and (min-width: 1255px) {
+	#outer-sitecontainer #controlpanel li:nth-of-type(4n+4) {
+		/*margin-right:0;*/
+	}	
+}
+
+.domain-list--is-active #contenttop a.referral {
+	display:block;
+}
