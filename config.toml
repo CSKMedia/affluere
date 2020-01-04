@@ -1,4 +1,4 @@
-baseURL = "http://affluere.se/"
+baseURL = "https://affluere.netlify.com"
 languageCode = "en-us"
 title = "Affluere"
 theme = "kross-hugo-portfolio-template"
