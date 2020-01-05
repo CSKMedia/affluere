@@ -3,6 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: static/images
 public_folder: /images
+logo_url: https://affluere.netlify.com/images/affluere_original.png
 collections:
   - name: 'nyheter'
     label: 'nyheter'

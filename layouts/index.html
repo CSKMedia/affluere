@@ -45,7 +45,7 @@
             <img class="img-single-blog" src="{{.Params.Image | absURL}}" alt="post-thumb">
           </div>
           <div class="col-lg-6 col-sm-6">
-            <h4><a class="text-uppercase" href="{{.Permalink}}">{{.Title }}</a>
+            <h4 class="card-title"><a class="text-dark text-uppercase" href="{{.Permalink}}">{{.Title }}</a>
             </h4>
             <p class="cars-text">{{.Summary}}</p>
             <a href="{{.Permalink}}" class="btn btn-xs btn-primary">Läs mer</a>
@@ -117,37 +117,6 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-{{ if .Site.Data.homepage.service.enable }}
-<!-- services -->
-<!-- <section class="section pt-0">
-    <div class="container-fluid section bg-lightGold">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Behandlingar</h2>
-      </div>
-    </div>
-    <div class="container p-0">
-      <div class="row">
-        {{ range .Site.Data.homepage.service.item }}
-        <div class="col-md-4 mb-4">
-          <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
-              <i class="{{.icon }} icon mb-5 d-inline-block"></i>
-              <h4 class="mb-4">{{.title}}</h4>
-              <p>{{.content | markdownify}}</p>
-            </div>
-          </div>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section> -->
-<!-- /services -->
-{{ end }}
 
 {{ if .Site.Data.homepage.test.enable }}
 <!-- test -->
