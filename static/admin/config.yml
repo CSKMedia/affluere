@@ -17,3 +17,15 @@ collections:
       - { label: 'Beskrivning', name: 'description', widget: 'string' }
       - { label: 'Bild', name: 'image', widget: 'image' }
       - { label: 'Innehåll', name: 'body', widget: 'markdown' }
+
+    
+      - name: "priser"
+        label: "Priser"
+        file: "data/priceList.yml"
+        extension: "yml"
+        fields:
+          - label: "Priser"
+            name: "categories"
+            widget: "list"
+            fields:
+              - {label: "title", name: "title", widget: "string"}
