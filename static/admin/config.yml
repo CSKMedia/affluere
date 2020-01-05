@@ -31,3 +31,9 @@ collections:
           widget: "list"
           fields:
             - {label: "title", name: "title", widget: "string"}
+            - label: 'Prislista'
+              name: 'priceList'
+              widget: 'list'
+              fields:
+                - {label: Beskrivining, name: type, widget: string}
+                - {label: Pris, name: price, widget: string}
