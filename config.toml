@@ -4,6 +4,10 @@ title = "Affluere"
 theme = "kross-hugo-portfolio-template"
 summaryLength = "10"
 
+#fix raw-html not being omitted
+[markup.goldmark.renderer]
+unsafe= true
+
 # Plugins
 [params.plugins]
 
