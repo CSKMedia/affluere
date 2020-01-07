@@ -1,9 +1,8 @@
-baseURL = "https://affluere.netlify.com"
+baseURL = "https://affluere.se"
 languageCode = "en-us"
 title = "Affluere"
 theme = "kross-hugo-portfolio-template"
 summaryLength = "10"
-inst_access = "DzonJZsJK1JTYfDupmrb"
 
 # Plugins
 [params.plugins]
