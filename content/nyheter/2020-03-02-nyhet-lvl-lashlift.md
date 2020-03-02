@@ -6,7 +6,7 @@ description: >-
   tid redan idag!
 image: /images/she_doesnt_just_treat_my_lashesartboard-4-copy.jpg
 ---
-**Vi på AFFLUERE är stolta över att meddela att vi numera är cetrifierade inom tekniken LVL Lashlift hos Nouveau Lashes**
+**Vi på AFFLUERE är stolta över att meddela att vi numera är cetrifierade inom tekniken LVL Lashlift hos Nouveau Lashes.**
 
 Nouveau Lashes är originalet inom LVL lashlift och kommer hela vägen från London och står för Length, Volume, Lift. Med sina återkommande utmärkelser för fantastiska resultat, produktsortiment samt utbildningar var det en självklarhet för oss att vidareutbilda oss i denna teknik. I februari reste vi till London för utbildning hos Nouveau och både vi och våra kunder är sååå nöjda med resultaten som har kommit därefter.
 
