@@ -10,6 +10,8 @@ Browlift / browlamination är bryn-behandlingen som har tagit skönhetsvärlden 
 
 I den här behandlingen ingår permanent utav dina bryn, färgning i passande färg, formning, en vårdande keratinbehandling samt styling och tips/råd för dina bryn.
 
+Vi är utbildade hos, samt använder oss av produkter från märket By Bexter. Ett svenskt varumärke med omsorgsfullt framtagna produkter som är ett av få märken som är godkända hos läkemedelsverket att att användas på hud och hår. 
+
 **PS! Denna behandling går att boka i en KOMBO med ditt lashlift.** 
 
 [BOKA DIN TID HÄR](https://www.bokadirekt.se/places/affluere-32560)
