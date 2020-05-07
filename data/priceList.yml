@@ -13,10 +13,20 @@ categories:
       - price: På begäran
         type: Hembesök
     title: Spraytan
+    hash: spraytan
+
   - priceList:
       - price: '895:-'
         type: lashlift ink. keratin och fransfärg
     title: Lashlift
+    hash: lashlift
+
+  - priceList:
+      - price: '695:-'
+        type: "Browlift / browlamination"
+    title: Browlift
+    hash: browlift
+
   - priceList:
       - price: '250:-'
         type: Fransfärg
@@ -25,3 +35,4 @@ categories:
       - price: '400:-'
         type: Frans- och brynfärgning
     title: Frans- och Brynfärg
+    hash: fransochbrynfarg
