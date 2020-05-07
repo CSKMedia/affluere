@@ -1,5 +1,5 @@
 ---
-title: "Spraytan"
+title: "Inför Spraytan"
 backgroundImage: "images/spraytanbg.jpg"
 backgroundImageMobile: "images/spraytan-square.jpg"
 image: "images/spraytanbg.jpg"

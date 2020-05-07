@@ -1,5 +1,5 @@
 ---
-title: "Browlift"
+title: "Inför Browlift"
 backgroundImage: "images/browlift.jpg"
 backgroundImageMobile: "images/browlift-square.jpg"
 squareImage: "images/browlift-square.jpg"

@@ -1,4 +1,4 @@
-Spraytan:
+Inför Spraytan:
   - title : "Inför Spraytan"
     hash : "inforspraytan"
     content:
@@ -55,7 +55,7 @@ Spraytan:
 
   - title : "Bra att veta"
     hash : "braattveta"
-    tips:  
+    tips:
       - tip: "Du bör ej träna eller utföra annan aktivitet som får dig att svettas samma dag som du gjort din spraytan."
       - tip: "Ta med dig ett paraply om det regnar ute när du ska göra din spaytan."
       - tip: "Undvik att sätta på dig smycken och andra hår åtsittande plagg direkt efter din spraytan." 
@@ -63,10 +63,10 @@ Spraytan:
       - tip: "Överskottsfärgen kan färga av sig innan du tagit din första dusch, detta går bort i tvätten! "
       - tip: "Det är i princip oundvikligt att det inte uppkommer några märken i din tan inom de närmsta timmarna efter behandling ex vid armhålor och bröst där vi är naturligt varma. Oroa dig inte – detta går bort med första duschen. "
 
-Lashlift:
+Inför Lashlift:
   - title : "Bra att veta"
     hash: "braattveta"
-    tips:  
+    tips:
       - tip: "Kom utan smink på fransarna (sminkborttagning erbjuds självklart hos oss)."
       - tip: "Vid behandling tas eventuella linser ut."
       - tip: "Boka ej in träning inom 24h efter behandling." 
@@ -74,10 +74,10 @@ Lashlift:
       - tip: "Undvik oljebaserade produkter samt vattenfast mascara efter din behandling."
 
 
-Browlift:
+Inför Browlift:
   - title : "Bra att veta"
     hash: "braattveta"
-    tips:  
+    tips:
       - tip: "Kom utan smink på brynen."
       - tip: "Boka ej in träning inom 24h efter behandling."
       - tip: "Undvik vatten, fukt och smink på brynen i minst 24h, helst 48h efter behandling."

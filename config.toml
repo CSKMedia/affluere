@@ -1,6 +1,6 @@
 baseURL = "https://affluere.se"
 languageCode = "en-us"
-title = "Affluere"
+title = "Affluere.se, sprytan, lashlift och browlift i Täby"
 theme = "kross-hugo-portfolio-template"
 summaryLength = "10"
 
@@ -107,10 +107,12 @@ unsafe= true
 logo = "images/affluere_original.png"
 # home = "Home"
 # Meta data
-description = "Affluere är norrorts enda studio som enbart är specialiserad på spraytanoch lashlift. Boka din tid idag"
+description = "Affluere är norrorts enda studio som enbart är specialiserad på spraytan och lashlift. Boka din tid idag"
 author = "CSK Media"
+ogimage = "images/affluere_symbol_original.png"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
+
 
   # Preloader
   [params.preloader]

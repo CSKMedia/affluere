@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h1 class="heading text-center">Inför {{ .Title }}</h1>
+          <h1 class="heading text-center">{{ .Title }}</h1>
         </div>
       </div>
     </div>
@@ -17,7 +17,7 @@
   <!--Sub menu-->
   <div class="sub-nav">
     <ul class="nav nav-justified">
-      {{ range (index $.Site.Data.visit .Title) }} 
+      {{ range (index $.Site.Data.visit .Title) }}
       <li class="nav-item">
         <a class="nav-link active" href="#{{ .hash }}">{{ .title }}</a>
       </li>
@@ -43,13 +43,15 @@
   </div>
   {{ end }} 
 
-  {{ range last 1 (index $.Site.Data.visit .Title) }} 
-  <div class="container bg-lightestGold tips section p-4 mb-4"> 
-    <ul>
-      {{range .tips}}
-      <li class="p-3">{{.tip }}</li>
-      {{ end }}
-    </ul>     
-  </div>
-{{ end }}
+  {{ if isset .Params "title" }}
+    {{ range last 1 (index $.Site.Data.visit .Title) }}
+    <div class="container bg-lightestGold tips section p-4 mb-4"> 
+      <ul>
+        {{range .tips}}
+        <li class="p-3">{{.tip }}</li>
+        {{ end }}
+      </ul>     
+    </div>
+    {{ end }}
+  {{ end }}
 {{end}}

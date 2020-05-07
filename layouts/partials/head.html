@@ -1,13 +1,89 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ .Site.Title }}</title>
+
+<title>{{ .Site.Title }}</title>
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-  {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
+
+<!-- open graph -->
+<!--Title-->
+<title itemprop="name">{{ .Title }} | {{ .Site.Title }}</title>
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+
+<!--description-->
+<!-- <meta name="description" content="{{ .Params.description }}" /> -->
+<meta name="description" content="{{ with .Description }}
+  {{ . }}
+  {{ else }}
+  {{if .IsPage}}{{ .Summary }}
+  {{ else }}{{ with .Site.Params.description }}
+  {{ . }}
+  {{ end }}{{ end }}{{ end }} /">
+
+<meta itemprop="description" content="{{ with .Description }}
+{{ . }}
+{{ else }}
+{{if .IsPage}}{{ .Summary }}
+{{ else }}{{ with .Site.Params.description }}
+{{ . }}
+{{ end }}{{ end }}{{ end }} /">
+
+<meta property="og:description" content="{{ with .Description }}
+{{ . }}
+{{ else }}
+{{if .IsPage}}{{ .Summary }}
+{{ else }}{{ with .Site.Params.description }}
+{{ . }}
+{{ end }}{{ end }}{{ end }} /">
+
+<meta name="twitter:description" content="{{ with .Description }}
+{{ . }}
+{{ else }}
+{{if .IsPage}}{{ .Summary }}
+{{ else }}{{ with .Site.Params.description }}
+{{ . }}
+{{ end }}{{ end }}{{ end }} /">
+
+<!--.links -->
+<base href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+<meta name="url" content="{{ .Permalink }}" />
+<meta name="twitter:url" content="{{ .Permalink }}" /> 
+<meta property="og:url" content="{{ .Permalink }}" />
+
+{{ with .Params.image }}
+  <meta itemprop="image" content="{{ . | absURL }}" />
+  <meta property="og:image" content="{{ . | absURL }}" /> 
+  <meta name="twitter:image" content="{{ . | absURL }}" />
+  <meta name="twitter:image:src" content="{{ . | absURL }}" /> 
+{{ else }}
+  <meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
+  <meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
+  <meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
+  <meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" /> 
+{{ end }}
+
+<!-- To make sure this renders only in the article page, we check the section -->
+{{ if eq .Section "nyheter" }}
+
+  <meta property="og:type" content="article" />
+  <meta property="article:publisher" content="{{ .Site.Params.facebook }}" /> 
+  <meta property="og:article:published_time" content={{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }} /> 
+  <meta property="article:published_time" content={{ .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+{{ end }}
+
+<!-- Eninge crawler-->
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+
+
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}

@@ -1,7 +1,8 @@
 ---
-title: "Lashlift"
+title: "Inför Lashlift"
 backgroundImage: "images/lashliftbg.jpg"
 backgroundImageMobile: "images/lashlift-square.jpg"
+image: "images/lashliftbg.jpg"
 squareImage: "images/lashlift-square.jpg"
 description: "Kom utan smink på fransarna (sminkborttagning erbjuds självklart hos oss).
 Vid behandling tas eventuella linser ut. Boka ej in träning inom 24h efter behandling.

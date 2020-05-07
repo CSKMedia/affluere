@@ -1,7 +1,7 @@
 ---
 title: NYHET - BROWLIFT
 date: 2020-05-05T10:06:18.789Z
-description: "Browlift i Täby, Hägerneholm. "
+description: Browlift i Täby, Hägerneholm.
 image: /images/bl.jpg
 ---
 Nu kan vi på AFFLUERE äntligen erbjuda den otroligt populära behandlingen Browlift / Brow Lamination. 
