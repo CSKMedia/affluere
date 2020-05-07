@@ -5,9 +5,9 @@
   <div class="overlay">
   </div>
 
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+  <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="banner_video.mp4" type="video/mp4">
-  </video>
+  </video> -->
 
   <div class="container h-100">
     <div class="row">
@@ -17,9 +17,10 @@
     </div>
   </div>
 
-  <!-- <div class="layer-bg w-100">
-      <img class="img-fluid w-100" src="{{`images/bg-front.jpg` | relURL}}" alt="bg-shape">
-    </div> -->
+  <div class="layer-bg w-100">
+      <img class="img-fluid w-100 d-none d-lg-block" src="{{`images/landing-bg.jpg` | relURL}}" alt="bg-shape">
+      <img class="img-fluid w-100 d-lg-none" src="{{`images/landing-bg-square.jpg` | relURL}}" alt="bg-shape">
+    </div>
 </section>
 
 
@@ -98,7 +99,7 @@
   </div>
   <div class="row">
     {{ range .Site.Data.homepage.service.item }}
-    <div class="col-md-4 text-center position-relative px-1 py-2">
+    <div class="col-md-3 text-center position-relative px-1 py-2">
       <a class="mb-4 centered effect-shine" href="{{ .url }}">{{.title}}</a>
       <div class="overlay">
         <img src="{{ .image }}" class="container_img">

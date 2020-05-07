@@ -36,7 +36,7 @@
   </div>
   <div class="row">
     {{ range .Site.Data.homepage.service.item }}
-    <div class="col-md-4 text-center position-relative px-1 py-2">
+    <div class="col-md-3 text-center position-relative px-1 py-2">
       <a class="mb-4 centered effect-shine" href="{{ .url | relURL }}">{{.title}}</a>
       <div class="overlay">
         <img src="{{ .image | relURL}}" class="container_img">

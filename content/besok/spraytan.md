@@ -1,6 +1,7 @@
 ---
 title: "Spraytan"
 backgroundImage: "images/spraytanbg.jpg"
+backgroundImageMobile: "images/spraytan-square.jpg"
 image: "images/spraytanbg.jpg"
 FeaturedImage: "images/spraytanbg.jpg"
 squareImage: "images/spraytan-square.jpg"

@@ -49,22 +49,25 @@ unsafe= true
   URL = "behandlingar/spraytan"
   parent = "Behandlingar"
   weight = 1
-  
 
   [[menu.main]]
   name = "Lashlift"
   URL = "behandlingar/lashlift"
   parent = "Behandlingar"
   weight = 2
-  
+
+  [[menu.main]]
+  name = "Browlift"
+  URL = "behandlingar/browlift"
+  parent = "Behandlingar"
+  weight = 3
 
   [[menu.main]]
   name = "Frans- och brynfärg"
   URL = "behandlingar/frans-och-brynfarg"
   parent = "Behandlingar"
-  weight = 3
-  
-  
+  weight = 4
+
   [[menu.main]]
   name = "Inför ditt besök"
   URL = "besok"
@@ -81,6 +84,12 @@ unsafe= true
   parent = "Inför ditt besök"
   URL = "besok/lashlift"
   weight = 5
+
+  [[menu.main]]
+  name = "inför browlift"
+  parent = "Inför ditt besök"
+  URL = "besok/browlift"
+  weight = 6
 
   [[menu.main]]
   name = "Kontakt"

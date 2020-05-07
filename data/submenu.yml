@@ -44,7 +44,7 @@ Spraytan:
       - type: "Hela kompisgänget"
         price: "På begäran"
       - type: "Hembesök"
-        price: "På begäran"   
+        price: "På begäran"
    
 Lashlift:
   - title : "Om lashlift"
@@ -69,6 +69,35 @@ Lashlift:
       - type: "lashlift ink. keratin och fransfärg"
         price: "895:-"
 
+Browlift:
+  - title : "Om browlift"
+    hash : "#om-browlift"
+    content: "Browlift / browlamination är bryn-behandlingen som har tagit skönhetsvärlden med storm. Behandlingen får ut på att skapa om brynens riktning och formar de till en snygg, önskvärd form.
+    <br>
+    <br>
+    Den här behandlingen passar dig som har tunna och smaka bryn och vill skapa en fylligare look, dig som har ostyriga bryn och vill få dina bryn på plats & för dig som bara vill ha de där perfekt formade brynen och en ”bruched-up look”.
+    <br>
+    <br>
+    I den här behandlingen ingår permanent utav dina bryn, färgning i passande färg, formning, en vårdande keratinbehandling samt styling och tips/råd för dina bryn.
+    <br>
+    <br>
+    Effekten av ett Browlift kvarstår i upp till 6-8 veckor och är helt underhållsfritt.
+    <br>
+    <br>
+    Vi är utbildade hos, samt använder oss av produkter från märket <u><a href='https://bybexter.se/' target='_blank'>By Bexter</a></u>. Ett svenskt varumärke med omsorgsfullt framtagna produkter som är ett av få märken som är godkända hos läkemedelsverket att att användas på både hud och hår.
+    "
+    image : "images/bl.jpg"
+    textLeft: true
+
+  - title : "Priser"
+    hash: "priser"
+    content : ""
+    image : "images/browlift-priser.jpg"
+    textRight: true
+    priceList:
+      - type: "Browlift / browlamination"
+        price: "695:-"
+
 Frans- och brynfärg:
   - title : "Om Frans- och brynfärg"
     hash : "#om-frans-och-brynfarg"
@@ -76,7 +105,7 @@ Frans- och brynfärg:
 Behandlingen tar ca 15-30 minuter och håller i ca 6 veckor.
 "
     image : "images/fransobryn.jpg"
-    textLeft : true 
+    textLeft : true
 
   - title : "Priser"
     hash : "#priser"
@@ -89,4 +118,4 @@ Behandlingen tar ca 15-30 minuter och håller i ca 6 veckor.
         price: "250:-"
       - type: "Frans- och brynfärgning"
         price: "400:-"
-    textRight : true 
+    textRight : true

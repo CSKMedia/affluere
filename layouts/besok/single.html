@@ -9,7 +9,8 @@
         </div>
       </div>
     </div>
-    <img src="{{ .Params.BackgroundImage | relURL}}" alt="besök" class="bg-shape-1 w-100">
+    <img src="{{ .Params.BackgroundImageMobile | relURL}}" alt="besök" class="bg-shape-1 w-100 d-lg-none">
+    <img src="{{ .Params.BackgroundImage | relURL}}" alt="besök" class="bg-shape-1 w-100 d-none d-lg-block">
   </section>
   <!-- /page title -->
 

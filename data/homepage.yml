@@ -105,7 +105,7 @@ education:
 # service
 service:
   enable : true
-  item : 
+  item :
     - title : "Spraytan"
       url : "behandlingar/spraytan"
       icon : "ti-spray"
@@ -120,6 +120,14 @@ service:
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : true
       image: "images/lashlift-square.jpg"
+
+    - title : "Browlift"
+      url : "behandlingar/browlift"
+      icon : "ti-brush"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : false
+      image: "images/browlift-square.jpg"
+      last: true
 
 
     - title : "Frans- och brynfärg"

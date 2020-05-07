@@ -72,3 +72,12 @@ Lashlift:
       - tip: "Boka ej in träning inom 24h efter behandling." 
       - tip: "Undvik vatten och fukt på fransarna minst 24h efter behandling."
       - tip: "Undvik oljebaserade produkter samt vattenfast mascara efter din behandling."
+
+
+Browlift:
+  - title : "Bra att veta"
+    hash: "braattveta"
+    tips:  
+      - tip: "Kom utan smink på brynen."
+      - tip: "Boka ej in träning inom 24h efter behandling."
+      - tip: "Undvik vatten, fukt och smink på brynen i minst 24h, helst 48h efter behandling."

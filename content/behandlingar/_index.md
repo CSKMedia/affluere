@@ -1,6 +1,6 @@
 ---
 title: "Behandlingar"
-draft: true
+draft: false
 ---
 
 Behandlingar index
