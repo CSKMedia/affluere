@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Affluere</title>
-    <link>http://affluere.se/categories/</link>
-    <description>Recent content in Categories on Affluere</description>
+    <title>Categories on Affluere.se, sprytan, lashlift och browlift i Täby</title>
+    <link>https://affluere.se/categories/</link>
+    <description>Recent content in Categories on Affluere.se, sprytan, lashlift och browlift i Täby</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://affluere.se/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://affluere.se/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inför ditt besök on Affluere</title>
-    <link>http://affluere.se/besok/</link>
-    <description>Recent content in Inför ditt besök on Affluere</description>
+    <title>Inför ditt besök on Affluere.se, sprytan, lashlift och browlift i Täby</title>
+    <link>https://affluere.se/besok/</link>
+    <description>Recent content in Inför ditt besök on Affluere.se, sprytan, lashlift och browlift i Täby</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
     
-	<atom:link href="http://affluere.se/besok/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://affluere.se/besok/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Lashlift</title>
-      <link>http://affluere.se/besok/lashlift/</link>
+      <title>Inför Browlift</title>
+      <link>https://affluere.se/besok/browlift/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://affluere.se/besok/lashlift/</guid>
-      <description>Spraytan hello</description>
+      <guid>https://affluere.se/besok/browlift/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Spraytan</title>
-      <link>http://affluere.se/besok/spraytan/</link>
+      <title>Inför Lashlift</title>
+      <link>https://affluere.se/besok/lashlift/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://affluere.se/besok/spraytan/</guid>
+      <guid>https://affluere.se/besok/lashlift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inför Spraytan</title>
+      <link>https://affluere.se/besok/spraytan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://affluere.se/besok/spraytan/</guid>
       <description></description>
     </item>
     

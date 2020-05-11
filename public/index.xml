@@ -1,76 +1,121 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Affluere</title>
-    <link>http://affluere.se/</link>
-    <description>Recent content on Affluere</description>
+    <title>Affluere.se, sprytan, lashlift och browlift i Täby</title>
+    <link>https://affluere.se/</link>
+    <description>Recent content on Affluere.se, sprytan, lashlift och browlift i Täby</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Dec 2019 12:15:34 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 10:06:18 +0000</lastBuildDate>
     
-	<atom:link href="http://affluere.se/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://affluere.se/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Öppningserbjudande</title>
-      <link>http://affluere.se/nyheter/oppningserbjudande/</link>
-      <pubDate>Thu, 12 Dec 2019 12:15:34 +0600</pubDate>
+      <title>NYHET - BROWLIFT</title>
+      <link>https://affluere.se/nyheter/nyhet-browlift/</link>
+      <pubDate>Tue, 05 May 2020 10:06:18 +0000</pubDate>
       
-      <guid>http://affluere.se/nyheter/oppningserbjudande/</guid>
-      <description>För att fira att AFFLUERE numer finns i Hägerneholm rivstartar vi med ett härligt öppningserbjudande.</description>
+      <guid>https://affluere.se/nyheter/nyhet-browlift/</guid>
+      <description>Nu kan vi på AFFLUERE äntligen erbjuda den otroligt populära behandlingen Browlift / Brow Lamination.</description>
     </item>
     
     <item>
-      <title>AFFLUERE flyttar in</title>
-      <link>http://affluere.se/nyheter/flyttarin/</link>
-      <pubDate>Thu, 12 Dec 2019 12:14:34 +0600</pubDate>
+      <title>NYHET - LVL LASHLIFT!</title>
+      <link>https://affluere.se/nyheter/nyhet-lvl-lashlift/</link>
+      <pubDate>Mon, 02 Mar 2020 09:26:13 +0000</pubDate>
       
-      <guid>http://affluere.se/nyheter/flyttarin/</guid>
+      <guid>https://affluere.se/nyheter/nyhet-lvl-lashlift/</guid>
+      <description>Vi på AFFLUERE är stolta över att meddela att vi numera är cetrifierade inom tekniken LVL Lashlift hos Nouveau Lashes.</description>
+    </item>
+    
+    <item>
+      <title>20% på spraytan och lashlift</title>
+      <link>https://affluere.se/nyheter/20-p%C3%A5-spraytan-och-lashlift/</link>
+      <pubDate>Wed, 08 Jan 2020 22:29:30 +0000</pubDate>
+      
+      <guid>https://affluere.se/nyheter/20-p%C3%A5-spraytan-och-lashlift/</guid>
+      <description>Självklart ska vi inleda det nya året snyggare än någonsin med böjda fransar och en fräsch bränna!</description>
+    </item>
+    
+    <item>
+      <title>AFFLUERE FLYTTAR IN</title>
+      <link>https://affluere.se/nyheter/affluere-flyttar-in/</link>
+      <pubDate>Thu, 12 Dec 2019 22:24:10 +0000</pubDate>
+      
+      <guid>https://affluere.se/nyheter/affluere-flyttar-in/</guid>
       <description>Äntligen har AFFLUERE flyttat in i den mysigaste av lokaler, hos Edgee Cali i Hägerneholm.</description>
     </item>
     
     <item>
+      <title>Öppningserbjudande</title>
+      <link>https://affluere.se/nyheter/oppningserbjudande/</link>
+      <pubDate>Thu, 12 Dec 2019 06:15:34 +0000</pubDate>
+      
+      <guid>https://affluere.se/nyheter/oppningserbjudande/</guid>
+      <description>För att fira att AFFLUERE numer finns i Hägerneholm rivstartar vi med ett härligt öppningserbjudande.</description>
+    </item>
+    
+    <item>
+      <title>Browlift</title>
+      <link>https://affluere.se/behandlingar/browlift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://affluere.se/behandlingar/browlift/</guid>
+      <description>lorum</description>
+    </item>
+    
+    <item>
       <title>Frans- och brynfärg</title>
-      <link>http://affluere.se/behandlingar/frans-och-brynfarg/</link>
+      <link>https://affluere.se/behandlingar/frans-och-brynfarg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://affluere.se/behandlingar/frans-och-brynfarg/</guid>
-      <description>Lorum ipsum</description>
-    </item>
-    
-    <item>
-      <title>Lashlift</title>
-      <link>http://affluere.se/behandlingar/lashlift/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://affluere.se/behandlingar/lashlift/</guid>
-      <description>Lorum ipsum</description>
-    </item>
-    
-    <item>
-      <title>Lashlift</title>
-      <link>http://affluere.se/besok/lashlift/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://affluere.se/besok/lashlift/</guid>
-      <description>Spraytan hello</description>
-    </item>
-    
-    <item>
-      <title>Spraytan</title>
-      <link>http://affluere.se/behandlingar/spraytan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://affluere.se/behandlingar/spraytan/</guid>
+      <guid>https://affluere.se/behandlingar/frans-och-brynfarg/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Spraytan</title>
-      <link>http://affluere.se/besok/spraytan/</link>
+      <title>Inför Browlift</title>
+      <link>https://affluere.se/besok/browlift/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://affluere.se/besok/spraytan/</guid>
+      <guid>https://affluere.se/besok/browlift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inför Lashlift</title>
+      <link>https://affluere.se/besok/lashlift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://affluere.se/besok/lashlift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inför Spraytan</title>
+      <link>https://affluere.se/besok/spraytan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://affluere.se/besok/spraytan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lashlift</title>
+      <link>https://affluere.se/behandlingar/lashlift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://affluere.se/behandlingar/lashlift/</guid>
+      <description>Lorum ipsum</description>
+    </item>
+    
+    <item>
+      <title>Spraytan</title>
+      <link>https://affluere.se/behandlingar/spraytan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://affluere.se/behandlingar/spraytan/</guid>
       <description></description>
     </item>
     

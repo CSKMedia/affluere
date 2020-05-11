@@ -3,69 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://affluere.se/</loc>
-    <lastmod>2019-12-12T12:15:34+06:00</lastmod>
+    <loc>https://affluere.se/</loc>
+    <lastmod>2020-05-05T10:06:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://affluere.se/nyheter/oppningserbjudande/</loc>
-    <lastmod>2019-12-12T12:15:34+06:00</lastmod>
+    <loc>https://affluere.se/nyheter/nyhet-browlift/</loc>
+    <lastmod>2020-05-05T10:06:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://affluere.se/nyheter/flyttarin/</loc>
-    <lastmod>2019-12-12T12:14:34+06:00</lastmod>
+    <loc>https://affluere.se/nyheter/nyhet-lvl-lashlift/</loc>
+    <lastmod>2020-03-02T09:26:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://affluere.se/besok/</loc>
+    <loc>https://affluere.se/nyheter/20-p%C3%A5-spraytan-och-lashlift/</loc>
+    <lastmod>2020-01-08T22:29:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affluere.se/nyheter/affluere-flyttar-in/</loc>
+    <lastmod>2019-12-12T22:24:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affluere.se/nyheter/oppningserbjudande/</loc>
+    <lastmod>2019-12-12T06:15:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://affluere.se/besok/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://affluere.se/kontakt/</loc>
+    <loc>https://affluere.se/kontakt/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://affluere.se/nyheter/</loc>
+    <loc>https://affluere.se/nyheter/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://affluere.se/behandlingar/</loc>
+    <loc>https://affluere.se/behandlingar/</loc>
   </url>
   
   <url>
-    <loc>http://affluere.se/categories/</loc>
+    <loc>https://affluere.se/behandlingar/browlift/</loc>
   </url>
   
   <url>
-    <loc>http://affluere.se/behandlingar/frans-och-brynfarg/</loc>
+    <loc>https://affluere.se/categories/</loc>
   </url>
   
   <url>
-    <loc>http://affluere.se/behandlingar/lashlift/</loc>
+    <loc>https://affluere.se/behandlingar/frans-och-brynfarg/</loc>
   </url>
   
   <url>
-    <loc>http://affluere.se/besok/lashlift/</loc>
+    <loc>https://affluere.se/besok/browlift/</loc>
   </url>
   
   <url>
-    <loc>http://affluere.se/priser/</loc>
+    <loc>https://affluere.se/besok/lashlift/</loc>
   </url>
   
   <url>
-    <loc>http://affluere.se/behandlingar/spraytan/</loc>
+    <loc>https://affluere.se/besok/spraytan/</loc>
   </url>
   
   <url>
-    <loc>http://affluere.se/besok/spraytan/</loc>
+    <loc>https://affluere.se/behandlingar/lashlift/</loc>
   </url>
   
   <url>
-    <loc>http://affluere.se/tags/</loc>
+    <loc>https://affluere.se/priser/</loc>
+  </url>
+  
+  <url>
+    <loc>https://affluere.se/behandlingar/spraytan/</loc>
+  </url>
+  
+  <url>
+    <loc>https://affluere.se/tags/</loc>
   </url>
   
 </urlset>
