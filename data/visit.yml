@@ -69,12 +69,33 @@ Inför Lashlift:
     tips:
       - tip: "Kom utan smink på fransarna (sminkborttagning erbjuds självklart hos oss)."
       - tip: "Vid behandling tas eventuella linser ut."
-      - tip: "Boka ej in träning inom 24h efter behandling." 
+      - tip: "Boka ej in träning inom 24h efter behandling."
       - tip: "Undvik vatten och fukt på fransarna minst 24h efter behandling."
       - tip: "Undvik oljebaserade produkter samt vattenfast mascara efter din behandling."
 
 
 Inför Browlift:
+  - title : "Inför Browlift"
+    hash: "inforbrowlift"
+    content:
+      - info: "Kom till din browliftbehandling utan smink på brynen. Sminkborttagning finns självklart hos oss, men kom gärna några minuter innan din bokade tid och fixa det då vii behöver all bokad tid till själva behandlingen. "
+        helperText: "Inför besöket"
+
+  - title : "Efter browlift"
+    hash: "efterbrowlift"
+    content:
+      - info: "Under de första 24h efter ditt browlift är det viktigt att brynen inte kommer i kontakt med vatten eller ånga, samt att du inte petar på, kammar eller sminkar brynen.
+      Undvik även att träna första dygnet efter ditt browlift då svett och ånga från huden kan få browliftet att tappa sin verkan."
+        inverted: true
+        hours: "24h"
+        helperText: "0-24 timmar efter browlift"
+        color: "primary"
+
+      - info: "Efter 24h går det bra att blöta och tvätta brynen igen. Det underlättar att kamma brynen i den riktning du vill ha dem medan de fortfarande är fuktiga från dusch eller ansiktstvätt. Återfukta med vanligt balsam (och skölj sedan bort) varje gång du duschar"
+        hours: "24h"
+        helperText: "24 timmar efter besöket"
+        inverted: false
+
   - title : "Bra att veta"
     hash: "braattveta"
     tips:

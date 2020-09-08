@@ -45,7 +45,7 @@ Spraytan:
         price: "På begäran"
       - type: "Hembesök"
         price: "På begäran"
-   
+
 Lashlift:
   - title : "Om lashlift"
     hash : "#om-lashlift"
@@ -72,19 +72,16 @@ Lashlift:
 Browlift:
   - title : "Om browlift"
     hash : "#om-browlift"
-    content: "Browlift / browlamination är bryn-behandlingen som har tagit skönhetsvärlden med storm. Behandlingen får ut på att skapa om brynens riktning och formar de till en snygg, önskvärd form.
-    <br>
-    <br>
-    Den här behandlingen passar dig som har tunna och smaka bryn och vill skapa en fylligare look, dig som har ostyriga bryn och vill få dina bryn på plats & för dig som bara vill ha de där perfekt formade brynen och en ”bruched-up look”.
-    <br>
-    <br>
-    I den här behandlingen ingår permanent utav dina bryn, färgning i passande färg, formning, en vårdande keratinbehandling samt styling och tips/råd för dina bryn.
-    <br>
-    <br>
-    Effekten av ett Browlift kvarstår i upp till 6-8 veckor och är helt underhållsfritt.
-    <br>
-    <br>
-    Vi är utbildade hos, samt använder oss av produkter från märket <u><a href='https://bybexter.se/' target='_blank'>By Bexter</a></u>. Ett svenskt varumärke med omsorgsfullt framtagna produkter som är ett av få märken som är godkända hos läkemedelsverket att användas på både hud och hår.
+    content: "Browlift / browlamination är bryn-behandlingen som har tagit skönhetsvärlden med storm. Behandlingen går ut på att omforma brynstrånas riktning och placera de i en snygg, önskvärd form.
+    <br><br>
+    Den här behandlingen passar dig som har tunna och smala bryn och vill skapa en fylligare look, dig som har ostyriga och envisa bryn och vill få dina bryn på plats & för dig som bara vill ha de där perfekt formade brynen och en ”bruched-up look”.
+    <br><br>
+    Ett browlift hos oss håller i ca 10-12 veckor men många väljer att boka in en tid för ”underhåll” efter ca 4-5 veckor där vi bättrar på färg och plockar brynen.
+    <br><br>
+    Behandlingen är i princip underhållsfri för dig som kund, men <u><a href='http://affluere.se/besok/browlift/'>här</a></u> kan du läsa mer om hur du bör ta hand om dina bryn innan och efter ett browlift för att det ska hålla så bra och länge som möjligt.
+    <br><br>
+    Under det första dygnen efter ett browlift kan brynen kännas ganska ”mycket” då de måste ligga i en mjukt uppborstad look samt att de ligger släta mot huden.
+    Vissa älskar den looken - andra inte. Ändock är det en del av processen och därför rekommenderar vi dig som gör ett browlift för första gången att du inte gör behandlingen samma dag som en viktig arbetsintervju, dejt eller födelsedagsfirandet. Men efter 24h kan du skölja igenom brynen vilket gör att de kommer att fluffa till sig lite igen, samt att du därefter får du kamma brynen precis hur själv du önskar!
     "
     image : "images/bl.jpg"
     textLeft: true
