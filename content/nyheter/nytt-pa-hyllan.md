@@ -1,6 +1,6 @@
 ---
-title: "KERATINSERUM - Nytt på hyllan  "
-date: 2021-08-13T08:20:44.625Z
+title: Nytt på hyllan - KERATINSERUM
+date: 2021-04-07T09:32:54.939Z
 description: Detta keratinserum är perfekt för dig som har lite tunna, spröda
   och fjuniga fransar och brynstrån. Serumet fungerar nämligen genom att bygga
   upp dina fransar och bryn inifrån och gör de både starkare och fylligare.
