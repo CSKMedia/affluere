@@ -34,7 +34,7 @@ Spraytan:
     image : "images/spraytan6.jpg"
     priceList:
       - type: "En person"
-        price: "375:-"
+        price: "395:-"
       - type: "Två personer"
         price: "650:-"
       - type: "Halvkropp"
@@ -116,3 +116,22 @@ Behandlingen tar ca 15-30 minuter och håller i ca 6 veckor.
       - type: "Frans- och brynfärgning"
         price: "400:-"
     textRight : true
+
+# Utbildningar:
+#   - title : "Spraytan"
+#     hash : "#spraytan-utbildning"
+#     content : "Spraytan text."
+#     image : "images/spraytan.jpg"
+#     textLeft : true
+
+#   - title : "Lashlift"
+#     hash : "#lashlift-utbildning"
+#     content : "Lashlift text"
+#     image : "images/lashlift.jpg"
+#     textRight : true
+
+#   - title : "Browlift"
+#     hash : "#browlift-utbildning"
+#     content : "browlift text"
+#     image : "images/fransobryn.jpg"
+#     textLeft : true

@@ -33,16 +33,10 @@ unsafe= true
 # navigation
 [menu]
 
- [[menu.main]]
+  [[menu.main]]
   name = "Behandlingar"
   URL = "behandlingar"
   weight = 2
-
-  [[menu.main]]
-  name = "Priser"
-  URL = "priser"
-  weight = 3
-
 
   [[menu.main]]
   name = "Spraytan"
@@ -68,6 +62,11 @@ unsafe= true
   parent = "Behandlingar"
   weight = 4
 
+  # [[menu.main]]
+  # name = "Utbildningar"
+  # URL = "utbildningar"
+  # weight = 3
+
   [[menu.main]]
   name = "Inför ditt besök"
   URL = "besok"
@@ -90,6 +89,11 @@ unsafe= true
   parent = "Inför ditt besök"
   URL = "besok/browlift"
   weight = 6
+
+  [[menu.main]]
+  name = "Priser"
+  URL = "priser"
+  weight = 3
 
   [[menu.main]]
   name = "Kontakt"
@@ -125,5 +129,5 @@ googleAnalitycsID = "Your ID"
   [params.footer]
   email = "info@affluere.se"
   phone = "073 59 59 599"
-  address = "Hägerneholmsvägen 13, 187 61 Täby"
+  address = "Boulevarden 20, 183 74 Täby"
   link = "http://affluere.bokadirekt.se"
